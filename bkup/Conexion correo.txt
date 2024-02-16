@@ -1,12 +1,8 @@
 
 async function sendEmail(AsuntoCoreo, ContenidoCorre,CorreoObjetivo ) {
 
-  let tenantID = "5ee63c21-4a48-44ae-b450-cd99773ff8d1" // Get from Azure App Registration
-let oAuthClientID = "75a64563-17da-4eb2-80e3-0955bcf3a42d" // Get from Azure App Registration
-let clientSecret = "ale8Q~GESApT.agS4FSb6MKvBJ3oc8tox4Woodop" // Get from Azure App Registration
-let oAuthToken; // declared, gets defined if successfully fetched
 
-let userFrom = "ticket@intervia.com.ar"
+
 let msgPayload = { 
   //Ref: https://learn.microsoft.com/en-us/graph/api/resources/message#properties
   message: {
