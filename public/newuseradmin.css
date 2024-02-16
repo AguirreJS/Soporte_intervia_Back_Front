@@ -1,0 +1,296 @@
+
+.butuser {
+    background: #8f888885;
+    color: white;
+    font-size: 22px;
+    padding: 4px;
+    padding-left: 18px;
+    padding-right: 18px;
+
+
+
+}
+
+.iniciar  {
+    font-size: 30px !important;
+    color: rgb(41, 11, 58);
+    margin-left: 150px;
+    background: #40376d;
+    width: 465px;
+    margin-top: 40px;
+    border: solid white 1px;
+    padding: 40px;
+    box-shadow: 3px 3px  10px;
+
+
+  }
+  
+  @keyframes load {
+    0% { width: 0; }
+    100% { width: 68%; }
+  }
+
+
+
+
+
+    .registrarse {
+
+
+      font-size: 60px;
+      
+      }
+      
+     
+      
+      .inputC {
+      color: #0e0f0f;
+      font-size: 17px;
+      margin-bottom: 20px;
+      margin-top: 10px;
+      margin-left: 75px;
+      display: inline-block;
+      background: #ffffffd6;
+      width: 380px;
+      border-top: solid 4px #0fd3da;
+      border-bottom:solid 4px #0fd3da ;
+      border-left: none ;
+      border-right: none;
+      padding-left: 7px;
+      
+      }
+      
+      
+      .inputD {
+          display: block;
+          margin-left: 25px;
+          margin-bottom: 3px;
+          color: rgb(249, 254, 251);
+          font-size: 17px;
+          border-bottom: solid rgb(97, 99, 98) 3px;
+          height: auto;
+          width: 
+          290px;  
+      }
+      
+      
+      .inputE {
+      display: inline-block;
+      font-size: 17px;
+      margin-left: 3px;
+      }
+      
+      .inputF {
+          margin-top: 20px;
+          display: block;
+          font-size: 17px;
+          position: relative;
+          left: 400px;
+          width: 150px;
+          bottom: 30px;
+          background: #0fd3da;
+          color: white;
+          border: none;
+          }
+          
+      
+      
+      
+      .loginPrincipal {
+        margin: 35px;
+       display: inline-block;
+        padding: 15px;
+      background-image: linear-gradient(rgba(249, 249, 249, 0.283), rgba(92, 85, 97, 0.216)), url(icon/log.jpg);
+      background-position: center;
+      width: 600px ;
+      border-radius: 4px;
+      position: relative;
+      bottom: 24%;
+      left: 10%;
+    
+      
+      }
+
+      .loginPrincipal:hover {
+        box-shadow: 0px 0px 2px 3px rgba(255, 255, 255, 0.368); /* sombra blanca cuando el cursor está sobre el elemento */
+      }
+      
+      .info {
+      display: grid;
+      color: white;
+      background: #a711d8fb;
+      padding: 20px;
+      justify-content: center;
+      width: 600px ;
+      border-radius: 4px;
+      margin-top: 40px;  
+      
+      }
+      
+      .no {
+      
+          width: 25px;
+          height: 25px;
+          display: none;
+      }
+      
+      
+      
+      
+      
+      .parent {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: 1fr;
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+          }
+      
+      
+          .info img {
+      
+              display: inline-block;
+             
+              margin-right: 10px;
+          }
+      
+          .alerta p {   
+      
+                  color: rgb(237, 134, 134);
+                  font-size: 25px;
+                  display: none;
+                    height:20px ;
+                    text-shadow: 2px  0px 0px rgb(254, 252, 252),
+                    0px  2px 0px rgb(255, 255, 255),
+                  
+                 
+      
+          }
+          
+      
+          .okey {  height: 120px;
+                  font-size: 40px;
+               color: #0fd3da; }
+
+    
+
+      .pasos {
+          margin-left: 35px;
+          background-color: #68176fa5;
+
+
+      }
+      
+      .pasos h1 {
+
+        text-align: center;
+      }
+      
+
+      .rescodigo {
+          position: fixed;
+          left: -4px;
+
+      }
+
+
+      @media only screen and (min-width: 850px) {
+
+        .gridInicio {
+          margin-top: 20%;
+          display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 40% 80%;
+grid-column-gap: 0px;
+grid-row-gap: 0px;    
+        
+        }
+
+        .publi1 {
+
+          width: 80%;
+          display: inline-block;
+          margin-left: 10%;
+          margin-top: -5%;
+          height: 80%;
+          opacity: 1;
+        
+        
+        }
+      }
+
+
+
+        @media only screen and (min-width: 1300px) {
+
+          .gridInicio {
+            margin-top: 10%;
+            display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;    
+          
+          }
+  
+          .publi1 {
+  
+            width: 80%;
+            display: inline-block;
+            margin-left: 10%;
+            margin-top: -10%;
+            height: 80%;
+            opacity: 1;
+          
+          
+          }
+     
+        
+        
+        
+        
+        }
+
+        @media only screen and (min-width: 1500px) {
+
+          .loginPrincipal {
+
+            width: 85%;
+            height: 65%;
+          }
+
+          .publi1 {
+            margin-top: -12%;
+          }
+         }
+
+
+         @media only screen and (min-width: 2100px) {
+
+          .loginPrincipal {
+
+            width: 85%;
+            height: 50%;
+          }
+
+          .publi1 {
+            margin-top: -13%;
+          }
+         }
+
+         @media only screen and (min-width: 0px) {
+
+          .menuPantalla{
+            display: none;
+          }
+
+         }
+
+
+         @media only screen and (min-width: 850px) {
+
+          .menuPantalla{
+            display: inline;
+          }
+
+         }

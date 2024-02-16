@@ -1,0 +1,13 @@
+let Valor0=  aop0.innerHTML;
+let Valor1=  aop1.innerHTML;
+let Valor2=  aop2.innerHTML;
+let Valor3=  aop3.innerHTML;
+let Valor4=  aop4.innerHTML;
+let Valor5=  aop5.innerHTML;
+let Valor6=  aop6.innerHTML;
+let Valor7=  aop7.innerHTML;
+let Valor8=  aop8.innerHTML;
+let Valor9=  aop9.innerHTML;
+let Valor10=  aop10.innerHTML;
+let Valor11=  aop11.innerHTML;
+let Valor12=  aop12.innerHTML;

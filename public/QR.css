@@ -1,0 +1,128 @@
+.menuEmergente {
+    position: fixed; /* Fijar el div en la pantalla */
+    top: 50%; /* Colocar el div en el centro vertical */
+    left: 50%; /* Colocar el div en el centro horizontal */
+    transform: translate(-50%, -50%); /* Centrar el div completamente */
+    text-align: center; /* Centrar el contenido horizontalmente */
+    background-color: rgb(68, 63, 68); /* Color de fondo para el div */
+    padding: 20px; /* Espaciado interior para el contenido */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+    border: solid white 1px;/* Sombra para resaltar el div */
+  }
+  
+  .menuEmergente  h1 {
+
+    color: white;
+  }
+
+
+  .fondoblack {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo negro semi-transparente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  
+
+
+/* Estilo para el contenedor principal */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilo para las etiquetas y campos de entrada */
+.label {
+  color: white;
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#descrip {
+  height: 200px;
+}
+
+/* Estilo específico para el campo de archivo */
+.descarga1 {
+  padding: 5px;
+  margin-top: 5px;
+}
+
+/* Estilo para el ícono de alerta */
+.alert {
+  width: 20px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+/* Estilo para el párrafo de alerta */
+.alert-text {
+  display: inline;
+  color: #ff0000; /* Color rojo para el texto de alerta */
+}
+
+/* Media query para hacerlo responsivo */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+    background: linear-gradient(90deg, rgba(106,83,149,1) 48%, rgba(103,25,172,1) 79%);
+  }
+  .input {
+    margin-bottom: 10px;
+  }
+}
+
+
+
+/* Estilo para el contenedor del botón */
+.butgrid {
+  text-align: center; /* Centra el contenido horizontalmente */
+  margin-top: 20px; /* Agrega espacio superior para separar el botón de otros elementos */
+}
+
+/* Estilo para el botón */
+.BotInicio2 {
+  padding: 10px 20px; /* Espaciado interno para el botón */
+  background-color: #007bff; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  border: none; /* Quita el borde del botón */
+  border-radius: 4px; /* Agrega bordes redondeados al botón */
+  cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+  font-size: 16px; /* Tamaño de fuente */
+}
+
+.menuEmergente button:hover {
+  background-color: #0056b3; /* Cambia el color de fondo al pasar por encima del botón */
+}
+
+
+.menuEmergente button {
+  padding: 10px 20px; /* Espaciado interno para el botón */
+  background-color: #007bff; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  border: none; /* Quita el borde del botón */
+  border-radius: 4px; /* Agrega bordes redondeados al botón */
+  cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+  font-size: 16px; /* Tamaño de fuente */
+}
+
+.BotInicio2:hover {
+  background-color: #0056b3; /* Cambia el color de fondo al pasar por encima del botón */
+}

@@ -1,0 +1,31 @@
+{
+  "name": "tikets-intervia",
+  "version": "1.0.0",
+  "description": "Sistema de tikets intervia.ar",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Agustin Aguirre",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "body-parser": "^1.20.2",
+    "buffer": "^6.0.3",
+    "busboy": "^1.6.0",
+    "chokidar": "^3.5.3",
+    "dotenv": "^16.4.4",
+    "exceljs": "^4.3.0",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.2.0",
+    "node-cron": "^3.0.2",
+    "nodemailer": "^6.9.1",
+    "oauth2": "^0.0.1",
+    "string-random": "^0.1.3",
+    "sudo-prompt": "^9.2.1",
+    "xlsx": "^0.18.5"
+  }
+}

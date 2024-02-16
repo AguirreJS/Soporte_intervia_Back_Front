@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/metricas/static/css/main.f737cdd5.css",
+    "main.js": "/metricas/static/js/main.f4009438.js",
+    "index.html": "/metricas/index.html",
+    "main.f737cdd5.css.map": "/metricas/static/css/main.f737cdd5.css.map",
+    "main.f4009438.js.map": "/metricas/static/js/main.f4009438.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f737cdd5.css",
+    "static/js/main.f4009438.js"
+  ]
+}

@@ -1,0 +1,90 @@
+
+@media only screen and (min-width: 0px) { 
+
+    .MenuInicio{
+        display: none;
+    }
+    .menuDeOpciones {
+
+        display: none;
+
+    }
+    .info {
+        display: none !important;
+    }
+
+    .loginPrincipal {
+        background: rgb(106,83,149);
+        background: -moz-linear-gradient(90deg, rgba(106,83,149,1) 48%, rgba(103,25,172,1) 79%);
+        background: -webkit-linear-gradient(90deg, rgba(106,83,149,1) 48%, rgba(103,25,172,1) 79%);
+        background: linear-gradient(90deg, rgba(106,83,149,1) 48%, rgba(103,25,172,1) 79%);
+        margin-left: 0%;
+        width: 73%;
+        margin-top: 0%;
+        padding: 35px;
+    }
+
+    .inputC {
+        color: #0e0f0f;
+        font-size: 12px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        display: inline-block;
+        background: #ffffffd6;
+        width: 259px;
+        border: solid 4px #87ffd5;
+        border-left: none;
+        border-right: none;
+        padding-left: 7px;
+    }
+    
+    
+    }
+
+    
+@media only screen and (min-width: 850px) { 
+
+
+    .inputC {
+        color: #0e0f0f;
+        font-size: 17px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        display: inline-block;
+        background: #ffffffd6;
+        width: 390px;
+        border: solid 4px #87ffd5;
+        border-left: none;
+        border-right: none;
+        padding-left: 7px;
+    }
+
+    .MenuInicio{
+        display: grid;
+    }
+    .menuDeOpciones {
+
+        display: grid;
+
+    }
+    .info {
+        display: grid !important;
+    }
+
+
+
+    .menuPantalla{
+        display: inline;
+    }
+
+
+    .loginPrincipal {
+        background: #40376d;
+        margin-left: 5%;
+        width: 75%;
+        margin-top: 3%;
+        padding: 35px;
+    }
+    
+    
+    }

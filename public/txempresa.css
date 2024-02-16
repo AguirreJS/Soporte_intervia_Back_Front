@@ -1,0 +1,93 @@
+
+  .nobus2{
+
+    margin-left: 40% !important;
+    font-size: 27px !important;
+
+  }
+  
+  .Buscador {
+    width: 50%; 
+    margin: auto; 
+    margin-top: 20px;
+    background: rgba(13, 13, 13, 0.495);
+    padding: 35px;
+    font-size: 22px;
+  }
+  
+/* Estilo para el elemento select */
+select {
+    background-color: rgba(0, 0, 0, 0.1); /* Color de fondo transparente */
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Borde transparente */
+    color: #333; /* Color del texto */
+    padding: 0.5em; /* Espacio interno */
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 200px;
+    color: rgb(17, 17, 17);
+    padding-left: 15px;
+    padding-right: 10px;
+  }
+  
+  /* Estilo para las opciones del elemento select */
+  .tik9 {
+    background-color: rgba(17, 16, 16, 0.504) !important; /* Color de fondo blanco */
+    color: rgb(1, 1, 1) !important; /* Color del texto */
+  }
+  
+
+
+
+  .btnM::after {
+    /* Utiliza la clase de la fuente de iconos para mostrar el icono de flecha hacia abajo */
+    content: "\f002";
+    font-weight: 900;
+    margin-left: 8px; /* Espacio entre el texto y el icono */
+  }
+
+  .btnM:hover::before {
+    content: "Buscar";
+  }
+
+  .btnM {
+    /* Otros estilos para el botón */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 30px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 1s !important;
+  }
+
+  .btnB::after {
+    /* Utiliza la clase de la fuente de iconos para mostrar el icono de flecha hacia abajo */
+    content: "\f002";
+    font-weight: 900;
+    margin-left: 8px; /* Espacio entre el texto y el icono */
+  }
+
+  .btnB:hover::before {
+    content: "Nueva Busqueda";
+  }
+
+  .btnB {
+    /* Otros estilos para el botón */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 55px;
+    margin-left: 42%;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 1s !important;
+    font-size: 15px;
+  }

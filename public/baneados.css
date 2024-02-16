@@ -1,0 +1,180 @@
+
+
+
+.historialip {
+    background: rgba(0, 0, 0, 0.724);
+    width: 80%;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 27px;
+    color: #ffffffbf;
+}
+.iphistorial {
+    display: block;
+
+}
+
+.abonado {
+
+    height: 40px;
+    width: 40px;
+    margin-right: 5%;
+}
+
+
+.tituloempresa {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.tituloempresa h1 {
+
+    color: rgb(13, 13, 13);
+}
+
+
+.formEmpresa {
+
+   
+    display: flex;
+    justify-content: center;
+}
+
+.formEmpresa2 {
+    background: rgba(0, 0, 0, 0.724);
+    width: 80%;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.formEmpresa2 p {
+
+    color: rgba(254, 251, 251, 0.835);
+    font-size: 28px;
+    margin-left: 13px;
+    margin-right: 15px;
+
+}
+
+.butempresa {
+
+display: block;
+background: rgba(20, 19, 21, 0.625);
+
+}
+
+ button { 
+    margin-left: 15px;
+    width: 85px;
+    background: rgb(38, 10, 51);
+    border: none;
+    color: white;
+    font-size: 20px;
+   
+}
+
+.centertabla {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tabla {
+    width: 90%;
+    margin-top: 35px;
+    background: rgba(25, 25, 26, 0.491);
+    display: grid;
+    grid-template-columns: 120px repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 0px;
+}
+
+
+
+
+.colum1 {
+    
+    width: 35px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 0px;
+
+}
+
+.colum1 button {
+    height: 35px;
+    display: block;
+    margin: 6.5px;
+    position: relative;
+    
+    
+  
+
+}
+
+.colum2 p {
+    height: 40px;
+    font-size: 22px;
+    background: rgba(44, 12, 90, 0.671);
+    margin: 7px;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+
+
+
+}
+
+.colum1 {
+    text-align: center;  
+    color: white;  
+    }
+.colum2 {
+text-align: center;  
+color: white;  
+}
+.colum3 {
+    text-align: center;  
+    color: white; 
+    }
+    .colum4 {
+        text-align: center; 
+        color: white;   
+        }
+
+       
+            
+
+
+.colum3 p {
+    height: 40px;
+    font-size: 22px;
+    background: rgba(44, 12, 90, 0.671);
+    margin: 7px;
+    text-align: center;
+    color: white;
+
+
+}
+
+.colum4 p {
+    height: 40px;
+    font-size: 22px;
+    background: rgba(44, 12, 90, 0.671);
+    margin: 7px;
+    text-align: center;
+    color: white;
+
+
+}

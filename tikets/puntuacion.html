@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sistema de Puntuación con Estrellas</title>
+    <link rel="stylesheet" type="text/css" href="../puntuacion.css">
+</head>
+<body>
+
+<div class="parent">
+<div class="block1">
+    <h1 title="Nivel de complejidad" class="titulo tooltip"> Nivel de Complejidad</h1>
+    
+    <div class="rating">
+        <div class="stars">
+          <input type="radio" name="rating" id="star10">
+          <label for="star10">10</label>
+          <input type="radio" name="rating" id="star9">
+          <label for="star9">9</label>
+          <input type="radio" name="rating" id="star8">
+          <label for="star8">8</label>
+          <input type="radio" name="rating" id="star7">
+          <label for="star7">7</label>
+          <input type="radio" name="rating" id="star6">
+          <label for="star6">6</label>
+          <input type="radio" name="rating" id="star5">
+          <label for="star5">5</label>
+          <input type="radio" name="rating" id="star4">
+          <label for="star4">4</label>
+          <input type="radio" name="rating" id="star3">
+          <label for="star3">3</label>
+          <input type="radio" name="rating" id="star2">
+          <label for="star2">2</label>
+          <input type="radio" name="rating" id="star1">
+          <label for="star1">1</label>
+        </div>
+      </div>
+      
+
+</div>
+
+<div class="block2">
+    <h2 class="titulo"> Tiempo :</h2>
+    <div class="time-selector">
+        <input type="number" min="0" max="12" id="hour" placeholder="Hora" value="00">
+        <span>:</span>
+        <input type="number" min="0" max="59" id="minutes" placeholder="Minutos" value="00">
+        
+        <p id="result"></p>
+    </div>
+</div>
+
+<div class="block2">
+    <h2 class="titulo"> Palabra Clave :</h2>
+    <div class="palabraClave">
+        <input id="clave1"  placeholder="Clave">
+        <input id="clave2" placeholder="Clave">
+        <input id="clave3" placeholder="Clave">
+        <p id="result"></p>
+    </div>
+
+    <button class="styled-button" onclick="puntuar()" id="submit">Enviar</button>
+
+</div>
+
+<script src="../puntuacion.js">  </script>
+</body>
+</html>

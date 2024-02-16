@@ -1,0 +1,205 @@
+
+
+
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+<meta charset="utf-8">
+<style>
+  *{
+    font-family: 'Poppins', sans-serif;
+  }
+  body {
+    background: rgba(252, 252, 255, 0);
+
+  }
+.Bloque1 {
+border: solid rgb(61, 61, 61) 3px;
+padding: 35px;
+width: 50%;
+margin-left: 25%;
+background: url(https://www.soporte.intervia.com.ar/img/imagen_fondo.jpg);
+background-size: cover;
+margin-top: 5%;
+border-radius: 5px;
+}
+  
+  .Bienvenido {
+    width: 100%;
+    text-align: center;
+     font-size: 22px;
+    color: rgb(127, 87, 157);
+  }
+  .Registrarme {
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: solid 4px #8fdff3 ;
+    border-bottom-width: 10%;
+    font-size: 15px;
+    text-decoration: none;
+  }
+
+  .infoTitulo {
+    width: 100%;
+    text-align: center;
+     font-size: 22px;
+    color: rgb(127, 87, 157);
+  }
+
+  .infoTitulo2 {
+    width: 100%;
+    text-align: center;
+     font-size: 12px;
+    color: rgb(0, 0, 0);
+  }
+
+  .info {
+    color: #000000;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+    font-size: 20px;
+  }
+
+
+  
+  .infoS {
+    color: #000000;
+padding-left: 20%;
+padding-right: 20%;
+margin-top: 1%;
+padding-bottom: 0%;
+text-align: center;
+font-size: 20px;
+  }
+
+
+  .Bloque2 {
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.416);
+    border-radius: 4px;
+  }
+
+.pieDePagina {
+
+
+background:linear-gradient(101deg, rgba(125,88,161,1) 17%, rgba(64,55,109,1) 100%);;
+width: 80%;
+height: 20%;
+border-radius: 4px;
+margin-left: 10%;
+}
+
+.pieDePagina img {
+height: 100%;
+width: 100%;
+box-sizing: border-box;
+padding: 5%;
+}
+
+.Mensaje {
+  text-align: left;
+  
+  background: rgb(18, 188, 211);
+  color: white;
+  font-size: 22px;
+  margin: 0px;
+padding-left: 30px;
+
+
+}
+
+.Cuerpo-Mensaje {
+  
+    font-size: 15px;
+    text-align: center;
+    
+}
+ .mensajecuerpo {
+  border: solid 4px rgb(18, 188, 211);
+background: white;
+border-radius: 5px;
+
+ }
+
+ .textalign  {
+  text-align: inherit;
+ }
+
+
+ .infoHilo {
+  font-size: 15px;
+  color: rgb(75, 69, 69);
+  width: 80%;
+  background:  rgba(124, 88, 161, 0.356);
+  border-radius: 15px;
+  margin-left: 10%;
+  padding: 0;
+  text-align: center;
+
+
+ }
+
+.infoCuerpo {
+
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+}
+
+
+</style>
+</head>
+<body>
+
+  <div class="Bloque1">
+    <h1 class="Bienvenido">Sistema de Tickets Intervia</h1>
+    <div class="mensajecuerpo"> <h5 class="Mensaje">  ${Usuario} . . .</h5>
+    <p class="Cuerpo-Mensaje"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quis iste exercitationem voluptas quas fugiat consequuntur est tempore commodi et ducimus quisquam, in officia quaerat ipsam molestiae sit itaque unde.</p> </div>
+
+    <h1 class="Bienvenido">Informacion del Ticket ${ticket1} Adjunto </h1>
+    <div class="Bloque2">
+    <h1 class="infoTitulo2"> Ticket : ${ticket1}   </h1>
+    <h1 class="infoTitulo2"> Usuario:${result[0].nomape} </h1>
+    <h1 class="infoTitulo2"> Correo :${result[0].correo} </h1>
+    <h1 class="infoTitulo2"> Estado :${result[0].estado}  </h1>
+    <h1 class="infoTitulo2"> Fecha: ${result[0].Fecha} </h1>
+    <h1 class="infoTitulo2"> Asunto : ${result[0].asunto}  </h1>
+  </div>
+  <div class="textalign">
+    <h1 class="infoTitulo"> Detalles del problema </h1>
+
+     <p class="info">
+     ${resulttiket[0].descripcion} </p>
+
+     <h1 class="infoTitulo"> Respuesta de Soporte </h1>
+
+
+     <h1 class="infoTitulo"> Materiales Utilizados </h1>
+
+    
+     ${infostock()} 
+   
+
+
+    </div>
+
+
+<div class="pieDePagina">  
+  <img src="https://www.soporte.intervia.com.ar/img/Intervia_inicio.png">
+
+</div>
+
+  </div>
+
+
+</body>
+</html>
+`

@@ -1,0 +1,23 @@
+.denegado {
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.denegado img {
+    
+margin-top: 5%;
+
+}
+
+.nota {
+    margin-top: 20px;
+    height: 40px;
+    width: 50%;
+    background: rgb(236, 22, 22);
+    text-align: center;
+    border-radius: 15px ;
+
+}

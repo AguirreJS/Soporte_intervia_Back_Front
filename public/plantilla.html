@@ -1,0 +1,213 @@
+
+<html>
+    <head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <style>
+      *{
+        font-family: 'Poppins', sans-serif;
+      }
+      body {
+        background: rgba(252, 252, 255, 0);
+    
+      }
+  .Bloque1 {
+    border: solid rgb(61, 208, 203) 3px;
+  padding: 35px;
+  width: 50%;
+  margin-left: 25%;
+  background: url(https://www.soporte.intervia.com.ar/img/imagen_fondo.jpg);
+  background-size: cover;
+  margin-top: 5%;
+  border-radius: 5px;
+  }
+      
+      .Bienvenido {
+        width: 100%;
+        text-align: center;
+         font-size: 18px;
+        color: rgb(127, 87, 157);
+      }
+      .Registrarme {
+        width: 50%;
+        margin-left: 25%;
+        text-align: center;
+        display: block;
+        text-decoration: none;
+        color: black;
+        border-bottom: solid 4px #8fdff3 ;
+        border-bottom-width: 10%;
+        font-size: 15px;
+        text-decoration: none;
+      }
+  
+      .infoTitulo {
+        color: #413f3fe6;
+  margin: 2px;
+  border: 0px;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 5px;
+      }
+  
+      .info {
+        color: #000000;
+        padding-left: 20%;
+        padding-right: 20%;
+        margin-top: 10%;
+        padding-bottom: 10%;
+        text-align: center;
+        font-size: 20px;
+      }
+  
+  
+      
+      .infoS {
+        color: #000000;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 1%;
+    padding-bottom: 0%;
+    text-align: center;
+    font-size: 20px;
+      }
+  
+  
+      .Bloque2 {
+        background: rgba(163, 163, 163, 0.416);
+        border-radius: 4px;
+      }
+  
+  .pieDePagina {
+  
+    background:linear-gradient(101deg, rgba(125,88,161,1) 17%, rgba(64,55,109,1) 100%);;
+    width: 80%;
+    height: 20%;
+    border-radius: 4px;
+    margin-left: 10%;
+  }
+  
+  .pieDePagina img {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5%; 
+  }
+
+
+  .TituloHilo {
+    background-color: #333; /* Color de fondo oscuro */
+    color: #fff; /* Texto en blanco */
+    font-size: 1.2em; /* Aumentar tamaño de fuente */
+    padding: 10px; /* Relleno en todos los lados */
+    border-radius: 5px; /* Bordes redondeados */
+    margin: 10px 0; /* Margen superior e inferior */
+    border-bottom: 3px solid #00BFFF; /* Subrayado de color celeste */
+    text-align: center;
+}
+
+.InfoHilo {
+    text-align: center;
+    background-color: #f9f9f9; /* Color de fondo claro */
+    color: #333; /* Texto oscuro */
+    padding: 8px; /* Relleno en todos los lados */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-top: 5px; /* Margen superior */
+}
+
+.bloque-ticket {
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+}
+
+.titulo-principal {
+    color: #2c3e50;
+    font-size: 18px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #00BFFF;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.detalles-ticket {
+    margin-top: 20px;
+}
+
+.detalle {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.etiqueta {
+    font-weight: bold;
+    color: #7f8c8d;
+}
+.infoS {
+  background-color: #ffffff6e; /* Color de fondo oscuro */
+  color: #000000; /* Texto en blanco */
+  font-size: 1.2em; /* Aumentar tamaño de fuente */
+  padding: 10px; /* Relleno en todos los lados */
+  border-radius: 5px; /* Bordes redondeados */
+  margin: 10px 0; /* Margen superior e inferior */
+  border-bottom: 3px solid #1111119f; /* Subrayado de color celeste */
+  text-align: center;
+}
+
+
+  
+  
+    </style>
+    </head>
+    <body>
+      
+      <div class="Bloque1">
+        <div class="bloque-ticket">
+            <h1 class="titulo-principal">Ticket ${Ticket} - Listo para facturar</h1>
+            <div class="detalles-ticket">
+                <div class="detalle"> <span class="etiqueta">Ticket:</span> ${Ticket}</div>
+                <div class="detalle"> <span class="etiqueta">Usuario:</span> ${result[0].nomape}</div>
+                <div class="detalle"> <span class="etiqueta">Correo:</span> ${result[0].correo}</div>
+                <div class="detalle"> <span class="etiqueta">Empresa:</span> ${result[0].empresa}</div>
+                <div class="detalle"> <span class="etiqueta">Estado:</span> ${result[0].estado}</div>
+                <div class="detalle"> <span class="etiqueta">Fecha:</span> ${result[0].Fecha}</div>
+                <div class="detalle"> <span class="etiqueta">Asunto:</span> ${result[0].asunto}</div>
+            </div>
+        </div>
+        
+
+      
+        <h1 class="TituloHilo"> Detalles del Ticket </h1>
+  
+         <p class="InfoHilo">
+         ${result[0].descripcion} </p>
+         
+         ${parrafosSoporte(result[0].nota)}
+
+ 
+         ${ renderInfo(result[0].facturacion2)} 
+         
+  
+         <h1 class="infoTitulo"> Stock Utilizado </h1>
+  
+         
+         ${infostock} 
+       
+  
+  
+  
+  
+  
+    <div class="pieDePagina">  
+      <img src="https://www.soporte.intervia.com.ar/img/Intervia_inicio.png">
+  
+    </div>
+  
+      </div>
+  
+    
+    </body>
+  </html>

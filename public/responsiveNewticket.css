@@ -1,0 +1,297 @@
+
+.container {
+
+    text-align: center; /* Centra el contenido horizontalmente */
+    padding: 20px; /* Espaciado interior para dispositivos móviles */
+  }
+  
+  .inputC2, .inputC3 {
+    width: 100%; /* Ocupar todo el ancho disponible */
+    padding: 10px; /* Espaciado interior */
+    margin: 10px 0; /* Espaciado entre elementos */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 5px; /* Esquinas redondeadas */
+    font-size: 16px; /* Tamaño de fuente */
+  }
+  
+  .inputC3 {
+    height: 100px; /* Altura del textarea */
+  }
+  
+  #imagen1 {
+    display: block; /* Hacer que el input de tipo file sea un bloque */
+    margin: 0 auto; /* Centrar horizontalmente */
+  }
+  
+
+@media only screen and (min-width: 0px) { 
+
+    .menuPantalla{
+        display: none;
+    }
+    
+    
+    }
+
+    
+@media only screen and (min-width: 850px) { 
+
+    .menuPantalla{
+        display: inline;
+    }
+    
+    
+    }
+
+
+
+    
+
+.Incorreocto {
+    display: none;
+    background: #87ffd5;
+    width: 100%;
+}
+
+
+.Incorreocto h1 {
+
+    font-size: 13px;
+    margin-left: 15%;
+    color: #413657;
+}
+
+
+
+
+@media only screen and (min-width: 0px) { 
+
+    .Pantalla {
+        display: none;
+    }
+
+.Telefonos  {
+
+    display: inline-block;
+    height: 200vw;
+    width: 100vw;
+
+
+} 
+
+
+.fotelefono {
+
+   
+    text-align: center; /* Centrar horizontalmente el contenido */
+    display: flex; /* Hacer que el div sea un contenedor flexible */
+    justify-content: center; /* Centrar horizontalmente los elementos secundarios */
+    align-items: center;
+
+
+
+    background: rgb(106,83,149);
+    background: -moz-linear-gradient(90deg, rgba(106,83,149,1) 48%, rgba(103,25,172,1) 79%);
+    background: -webkit-linear-gradient(90deg, rgba(106,83,149,1) 48%, rgba(103,25,172,1) 79%);
+    background: linear-gradient(90deg, rgba(106,83,149,1) 48%, rgba(103,25,172,1) 79%);
+
+}
+
+.fotelefonoimg {
+    display: inline-block;
+    height: 100px;
+    margin: 13px;
+ 
+}
+
+.fotelefonomenu {
+    
+    display: inline-block;
+    height: 9vw;
+    width: 9vw;
+    margin-bottom: 58%;
+    margin-left: 15%;
+}
+
+
+.telefonostitulo {
+
+    color: white;
+    font-size: 29px;
+    margin-left: 6%;
+    margin-top: 5%;
+
+}
+
+.telefonoslinea {
+
+    height: 12px;
+    width: 45px;
+    background: #87ffd5;
+    margin-left: 10%;
+
+
+
+}
+
+.teleBienvenidos {
+
+    color: white;
+    font-size: 7vw;
+    margin-left: 10%;
+    margin-top: 10%;
+
+}
+
+.telRegistrarme {
+
+    height: 50px;
+    width: 76%;
+    background: #87ffd5;
+    margin: 20px;
+
+
+}
+
+.telRegistrarme a{
+
+    text-decoration: none;
+    color: rgb(70, 7, 130);
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.redestelefono {
+    position: fixed;
+    width: 43px;
+    bottom: 0;
+    height: auto;
+    background: rgb(65, 16, 113);
+}
+
+.redestelefono a img {
+ 
+    height: 25px;
+    width: 25px;
+    margin: 5%;
+    margin-left: 15%;
+
+  
+
+}
+
+.menuDeOpcionestel {
+
+    position: fixed;
+    height: 278px;
+    width: 227px;
+    background: white;
+    margin-left: 40%;
+    border-radius: 25px;
+    border: solid 3px #552d6f;
+    
+}
+
+.menuDeOpcionestel img {
+
+    margin-left: 67%;
+    margin-bottom: -50px;
+
+
+}
+
+.menuDeOpcionestel a { 
+
+    display: inline-block;
+    width: 100% !important;
+   margin-left: 15%;
+    text-decoration: none;
+    margin-top: 10%;
+    color: rgb(118, 74, 159);  
+    font-size: 19px;                                                                                                    
+}
+
+.lineamenu {
+    margin-top: 5px;
+    margin-left: 15%;
+    height: 5px;
+    width: 145px;
+    background: rgb(118, 74, 159);
+}
+
+.img1 {
+    margin-top: 14% !important;
+}
+
+.divmenu {
+    display: inline-block;
+    height: 20%;
+    margin-left: 15%;
+    
+}
+
+.divmenu1 {
+margin-bottom: 15%;
+
+}
+
+
+.Nomusuario {
+
+    color: #87ffd5;
+    margin-left: 10%;
+}
+
+.salir2tel {
+    color: rgb(255, 255, 255) !important;
+    margin-left: 45% !important;
+    width: 80px !important;
+    margin-top: 15%;
+    border: solid white 2px !important;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+.titulosesion {
+    background: white;
+    color: rgb(103 78 126);
+    
+    text-align: center;
+    
+}
+
+
+}
+
+@media only screen and (min-width: 355px) {  
+
+  }
+
+
+@media only screen and (min-width: 850px) { 
+
+    .Telefonos {
+   
+    display: none;
+    
+}
+
+.Pantalla {
+
+    display: inline;
+}
+    
+    
+    }
+
+
+   

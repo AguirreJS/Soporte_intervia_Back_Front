@@ -1,0 +1,114 @@
+[
+  {
+    "fecha": "14-10-2023",
+    "Aguardando": 9,
+    "EnProceso": 16,
+    "Usuarios": 192,
+    "Tickets": 498,
+    "Empresas": 34
+  },
+  {
+    "fecha": "15-10-2023",
+    "Aguardando": 9,
+    "EnProceso": 16,
+    "Usuarios": 192,
+    "Tickets": 498,
+    "Empresas": 34
+  },
+  {
+    "fecha": "16-10-2023",
+    "Aguardando": 9,
+    "EnProceso": 16,
+    "Usuarios": 192,
+    "Tickets": 498,
+    "Empresas": 34
+  },
+  {
+    "fecha": "17-10-2023",
+    "Aguardando": 9,
+    "EnProceso": 16,
+    "Usuarios": 197,
+    "Tickets": 520,
+    "Empresas": 41
+  },
+  {
+    "fecha": "19-10-2023",
+    "Aguardando": 9,
+    "EnProceso": 16,
+    "Usuarios": 192,
+    "Tickets": 498,
+    "Empresas": 34
+  },
+  {
+    "fecha": "26-10-2023",
+    "Aguardando": 9,
+    "EnProceso": 16,
+    "Usuarios": 193,
+    "Tickets": 502,
+    "Empresas": 34
+  },
+  {
+    "fecha": "01-11-2023",
+    "Aguardando": 9,
+    "EnProceso": 19,
+    "Usuarios": 201,
+    "Tickets": 507,
+    "Empresas": 34
+  },
+  {
+    "fecha": "02-11-2023",
+    "Aguardando": 9,
+    "EnProceso": 19,
+    "Usuarios": 201,
+    "Tickets": 507,
+    "Empresas": 34
+  },
+  {
+    "fecha": "11-11-2023",
+    "Aguardando": 2,
+    "EnProceso": 7,
+    "Usuarios": 201,
+    "Tickets": 507,
+    "Empresas": 34
+  },
+  {
+    "fecha": "13-11-2023",
+    "Aguardando": 9,
+    "EnProceso": 19,
+    "Usuarios": 201,
+    "Tickets": 507,
+    "Empresas": 34
+  },
+  {
+    "fecha": "14-11-2023",
+    "Aguardando": 9,
+    "EnProceso": 19,
+    "Usuarios": 201,
+    "Tickets": 507,
+    "Empresas": 34
+  },
+  {
+    "fecha": "15-11-2023",
+    "Aguardando": 9,
+    "EnProceso": 19,
+    "Usuarios": 201,
+    "Tickets": 507,
+    "Empresas": 34
+  },
+  {
+    "fecha": "24-11-2023",
+    "Aguardando": 9,
+    "EnProceso": 19,
+    "Usuarios": 201,
+    "Tickets": 507,
+    "Empresas": 34
+  },
+  {
+    "fecha": "27-11-2023",
+    "Aguardando": 9,
+    "EnProceso": 19,
+    "Usuarios": 201,
+    "Tickets": 507,
+    "Empresas": 34
+  }
+]

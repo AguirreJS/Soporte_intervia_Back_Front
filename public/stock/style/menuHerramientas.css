@@ -1,0 +1,269 @@
+.CodigoQR {
+
+  display: grid;
+ 
+  margin-top: 36%;
+ 
+}
+
+.CodigoQR img {
+  margin: 2px;
+  border: solid #87ffd5 5px;
+  padding: 12px;
+
+
+ 
+}
+
+.CodigoQR p {
+width:  60%;
+
+
+ 
+}
+
+.CodigoQR h2 {
+ font-size: 40px;
+  color: #40376D;
+  
+  
+   
+  }
+
+
+
+.GridIndex {
+
+  display: grid;
+  grid-template-columns: 65% 35%;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+
+
+
+} 
+
+
+
+:root {
+  --ColorVerde: linear-gradient(180deg, rgba(135,255,213,1) 69%, rgba(100,210,113,1) 100%);
+}
+.MenuInicio {
+  display: grid;
+  grid-template-columns: 25% 55% 19%;
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+background: rgb(125,88,161);
+background: linear-gradient(101deg, rgba(125,88,161,1) 17%, rgba(64,55,109,1) 100%);
+}
+
+.MenuInicio img {
+    width: 18vw;
+    margin: 43px;
+    border-right: solid 2px white;
+    padding-right: 10px;
+    
+}
+
+.Titulo {
+
+    font-size: 33px;
+    margin-top: 11%;
+    color: white;
+
+}
+
+.InicioLogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+   
+}
+
+.fa-user {
+  font-size: 20px;
+}
+
+.InicioLogin a { 
+   
+    background: #87ffd5;
+    padding: 10px;
+    margin-top: 10px;
+    height: 12%;
+    width: 100%;
+    font-size: 17px;
+    
+    
+}
+
+.InicioLogin a span {
+  height: 25px;
+
+}
+
+
+
+ .InicioLogin a p {
+    display:inline-block;
+    
+ } 
+
+ .H1ma {
+
+    margin-left: 15px;
+ }
+
+
+ .menuDeOpciones{
+    display: grid;
+grid-template-columns: 61% 21%;
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+    background: #40376D;
+    height: 45px;
+    padding-top: 10px;
+ }
+
+ 
+ .menuDeOpciones a {
+        
+    color: white;
+    font-size: 15px;
+    margin-left: 20px;
+    
+     }
+
+.Opciones {
+    display: inline-block;
+}
+
+.redes {
+    display: inline-block;
+
+}     
+.redes img {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+
+}
+
+.Opciones a:hover {
+    color: #87ffd5;
+  }
+
+
+  .Info {
+    width: 70%;
+    margin-left: 50px;
+    margin-top: 100px;
+    display: inline-block;
+  }
+
+  .Info p {
+    margin-top: 50px;
+    font-size: 22px;
+  }
+
+  .Info h1 {
+    color: #40376D;
+    margin-top: 50px;
+    font-size: 45px;
+  }
+
+
+  .infop1{
+    font-weight: bold;
+  }
+
+  .lineaDivisoria {
+    width: 65px;
+    height: 4px;
+    background: #87ffd5;
+  }
+
+  .salir {
+   border: none;
+   color: #40376D;
+   font-size: 22px;
+   
+
+
+  }
+
+
+  
+
+  .iniciologinbotones {
+    position: relative;
+    bottom: 7px;
+    text-decoration: none;
+    color: #40376D;
+  }
+
+
+
+
+  
+  @media only screen and (min-width: 878px) { 
+
+ 
+
+
+  }
+
+  @media only screen and (min-width: 1050px) { 
+.MenuInicio {
+  grid-template-columns: 32% 51% 15%;
+}
+.MenuInicio img {
+  width: 26vw;}
+  }
+
+
+
+  @media only screen and (min-width: 1143px) { 
+
+    
+
+    .Titulo {
+      font-size: 45px; }
+
+ 
+
+  }
+
+
+  @media only screen and (min-width: 1450px) { 
+
+    
+    .MenuInicio img {
+      width: 22vw;}
+
+      .menuDeOpciones {
+        display: grid;
+        grid-template-columns: 67% 21%;}
+
+        .MenuInicio { grid-template-columns: 32% 51% 11%; }
+
+
+ 
+
+  }
+
+
+
+  
+  @media only screen and (min-width: 1600px) { 
+
+    .MenuInicio { grid-template-columns: 32% 52% 9%; }
+  
+
+ 
+
+  }

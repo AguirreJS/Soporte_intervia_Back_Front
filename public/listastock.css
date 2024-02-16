@@ -1,0 +1,53 @@
+
+.cargando {
+
+  border-radius: 50%;
+  width: 50%;
+  height: 50%;
+}
+.oculto {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ffffff00;
+}
+
+
+.listaStock {
+    border-top: solid  2px black;
+    border-bottom: solid  2px black;
+    padding: 8px;
+    display: grid;
+    grid-template-columns: 5% 10% 40% repeat(3, 15%);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+
+
+
+    .estado { display: grid;
+    text-align: center; }
+
+    .chk { display: grid; }
+
+
+    .mi-boton {
+        margin-top: 10px;
+        margin-left: 10px;
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #007bff; /* Color de fondo */
+        color: #ffffff; /* Color del texto */
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        float: right; /* Alineación a la derecha */
+      }
+  
+      /* Cambio de color al pasar el mouse sobre el botón */
+      .mi-boton:hover {
+        background-color: #0056b3; /* Cambio de color de fondo al pasar el mouse */
+      }

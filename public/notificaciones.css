@@ -1,0 +1,307 @@
+
+
+.actualizar {
+
+    border: none;
+    background: none;
+    color: rgb(122, 52, 165);
+    font-size: 15px;
+
+
+}
+
+
+.inputC {
+    color: #0e0f0f;
+    font-size: 17px;
+    margin-bottom: 20px;
+    margin-top: 14px;
+    margin-top: 11px;
+    margin-right: 5px;
+    background: #ffffffd6;
+    width: 32%;
+    border-top: solid 4px rgb(24, 189, 211);
+    border-bottom: solid 4px rgb(24, 189, 211);
+    border-left: none;
+    border-right: none;
+    padding-left: 7px;
+    padding-top: 0px;
+}
+
+.colum {
+    padding: 20px;
+    background: #40376d;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+
+
+
+
+.vColum1 {
+
+
+    overflow: auto;
+}
+
+
+
+
+.tabla {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(1, 160px) repeat(1, 220px) repeat(1, 160px) repeat(12, 55px)  repeat(1, 150px) repeat(1, 120px);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-left: 4%;
+        
+}
+
+.tituloSuperior { 
+
+
+    display: grid;
+    grid-template-columns: repeat(1, 157px) repeat(1, 220px)  repeat(6, 165px);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-left: 4%;
+    margin-top: 50px;
+
+
+}
+.titulosuperiorinterno {
+    text-align: center;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    border-left: solid white 1px;
+    
+
+
+
+}
+
+.vColum1 p {
+    color: white;
+    background: #40376D;
+    text-align: center;
+    border: solid 1px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.vColum1 button {
+    color: white;
+    background: #070707e6;
+    text-align: center;
+    border: solid 1px;
+    margin-left: 5px;
+    padding:2px;
+}
+
+
+
+
+.tituloempre {
+    background: #1218dd00;
+    color: rgb(15, 14, 14);
+    margin: 10px;
+    font-size: 12px;
+}
+
+
+
+.Butbuscador {
+
+    background: transparent;
+    color: rgb(7, 7, 7);
+    font-size: 18px;
+}
+.Buscador {
+
+    width: 59%;
+    background: #ffffff00;
+    margin-left: 15%;
+}
+
+.select {
+
+    text-align: center;
+    background: rgba(44, 16, 207, 0.384);
+    color: white;
+    height: 33px;
+    margin-right: 8%;
+
+}
+
+
+.button12 {
+    color: white;
+    background: #2e2c34;;
+    text-align: center;
+    border: solid 1px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+
+.tabla div h1 {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+.butonempresa {
+
+    height: 80%;
+    width: 10%;
+}
+
+
+.colum2 {
+
+   
+display: grid;
+color: white;
+height: 100% !important;
+margin-left: 7px;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+.colum2 p {
+    text-align: center;
+    height: 30px;
+    margin: 1px;
+    background: rgba(0, 0, 255, 0.154);
+    font-size: 14.5px;
+    border-bottom: solid white 1px;
+    color: white;
+    overflow: hidden;
+}
+
+
+
+.colum6 { display: grid;
+grid-template-columns: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.colum6 p {
+    text-align: center;
+    height: 30px;
+    margin: 1px;
+    background: rgba(0, 0, 255, 0.154);
+    font-size: 14.5px;
+    border-bottom: solid white 1px;
+    color: white;
+}
+
+.colum3 { display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .colum3 p {
+        text-align: center;
+        height: 30px;
+        margin: 1px;
+        background: rgba(0, 0, 255, 0.154);
+        font-size: 14.5px;
+        border-bottom: solid white 1px;
+        color: white;
+    }
+
+
+    .colum4 { display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+        .colum4 p {
+            text-align: center;
+            height: 30px;
+            margin: 1px;
+            background: rgba(0, 0, 255, 0.154);
+            font-size: 14.5px;
+            border-bottom: solid white 1px;
+            color: white;
+        }
+
+
+        .colum5 { display: grid;
+            grid-template-columns: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            }
+            
+            .colum5 p {
+                text-align: center;
+                height: 30px;
+                margin: 1px;
+                background: rgba(0, 0, 255, 0.154);
+                font-size: 14.5px;
+                border-bottom: solid white 1px;
+                color: white;
+            }
+
+            
+        .colum7 { display: grid;
+            grid-template-columns: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            }
+            
+            .colum7 p {
+                text-align: center;
+                color: white;
+                height: 100%;
+                margin: 1px;
+                background: rgba(0, 0, 255, 0.154);
+                font-size: 14.5px;
+            }
+
+            .colum7 h1 { 
+                font-size: 22.5px !important;
+                height: 46px;
+            }
+
+
+
+
+            @media only screen and (min-width: 1400px) {  
+
+                
+
+            }
+
+
+
+
+            @media only screen and (min-width: 1500px) {  
+
+               
+
+            }
+
+
+            
+            @media only screen and (min-width: 1800px) {  
+
+             
+            }
+
+            @media only screen and (min-width: 2000px) {  
+
+              
+
+            }

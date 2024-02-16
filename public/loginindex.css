@@ -1,0 +1,277 @@
+
+
+.publi1 {
+
+    width: 500px;
+    display: inline-block;
+    height: 50%;
+    opacity: 0.6;
+    transition: opacity 0.75s;
+    margin-left: 20%;
+    margin-top: 5%;
+  
+  
+  }
+  
+  
+  
+  .publi1:hover {
+    opacity: 1; 
+  
+  
+  }
+  
+  
+
+  
+  
+  
+    #Error {
+      bottom: -11px;
+      display: none;
+      color: white;
+      font-size: 15px !important;
+      margin-left: 15%;
+      background: #ff000082;
+      width: 50%;
+      padding: 7px;
+      border-bottom: solid 4px #c58d8d;
+      border-radius: 5px;
+      position: relative;
+  
+    }
+     
+  
+    
+  
+  
+  
+  
+  .progress {
+      background: rgba(255,255,255,0.1);
+      justify-content: flex-start;
+      border-radius: 100px;
+      align-items: center;
+      position: relative;
+      padding: 0 5px;
+      display: none;
+      height: 40px;
+      width: 500px;
+  
+    }
+    
+    .progress-value {
+      animation: load 3s normal forwards;
+      box-shadow: 0 10px 40px -10px rgb(51, 217, 246);
+      border-radius: 100px;
+      background: rgba(36, 45, 222, 0.515);
+      height: 30px;
+      width: 0;
+    }
+  
+    .iniciar p {
+      font-size: 30px !important;
+      color: rgb(41, 11, 58);
+  
+  
+    }
+    
+    @keyframes load {
+      0% { width: 0; }
+      100% { width: 68%; }
+    }
+  
+  
+  
+  
+  
+      .registrarse {
+  
+  
+        font-size: 60px;
+        
+        }
+        
+        body {
+            background-image: url(img/imagen_fondo.jpg);
+            background-size: cover;
+            background-size: 100% auto;
+        }
+        
+        .inputC {
+        color: #0e0f0f;
+        font-size: 17px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        margin-left: 75px;
+        display: inline-block;
+        background: #ffffffd6;
+        width: 300px;
+        border: solid 4px #87ffd5;
+        border-left: none ;
+        border-right: none;
+        padding-left: 7px;
+        
+        }
+        
+        
+        .inputD {
+            display: block;
+            margin-left: 25px;
+            margin-bottom: 3px;
+            color: rgb(249, 254, 251);
+            font-size: 17px;
+            border-bottom: solid rgb(97, 99, 98) 3px;
+            height: auto;
+            width: 
+            290px;  
+        }
+        
+        
+        .inputE {
+        display: inline-block;
+        font-size: 17px;
+        margin-left: 3px;
+        }
+        
+        .inputF {
+            margin-top: 20px;
+            display: block;
+            font-size: 17px;
+            position: relative;
+            left: 400px;
+            width: 150px;
+            bottom: 30px;
+            background: #0fd3da;
+            color: white;
+            border: none;
+            }
+            
+        
+        
+        
+            .loginPrincipal {
+                margin: 0 auto;
+                height: 264px;
+                padding: 15px;
+                background: #40376D;
+                background-position: center;
+                max-width: 443px;
+                border-radius: 4px;
+                margin-top: 10%;
+              }
+              
+  
+        .loginPrincipal:hover {
+          box-shadow: 0px 0px 2px 3px rgba(255, 255, 255, 0.368); /* sombra blanca cuando el cursor está sobre el elemento */
+        }
+        
+        .info {
+        display: grid;
+        color: white;
+        background: #a711d8fb;
+        padding: 20px;
+        justify-content: center;
+        width: 600px ;
+        border-radius: 4px;
+        margin-top: 40px;  
+        
+        }
+        
+        .no {
+        
+            width: 25px;
+            height: 25px;
+            display: none;
+        }
+        
+        
+        
+        
+        
+        .parent {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            }
+        
+        
+            .info img {
+        
+                display: inline-block;
+               
+                margin-right: 10px;
+            }
+        
+            .alerta p {   
+        
+                    color: rgb(237, 134, 134);
+                    font-size: 25px;
+                    display: none;
+                      height:20px ;
+                      text-shadow: 2px  0px 0px rgb(254, 252, 252),
+                      0px  2px 0px rgb(255, 255, 255),
+                    
+                   
+        
+            }
+            
+        
+            .okey {  height: 120px;
+                    font-size: 40px;
+                 color: #0fd3da; }
+  
+      
+  
+        .pasos {
+            margin-left: 35px;
+            background-color: #68176fa5;
+  
+  
+        }
+        
+        .pasos h1 {
+  
+          text-align: center;
+        }
+        
+  
+        .rescodigo {
+            position: fixed;
+            left: -4px;
+  
+        }
+  
+      
+  
+  
+          .publi1 {
+            display: none;
+          }
+  
+
+          .BotInicio {
+            display: inline-flex;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            background-color: #007BFF; /* Color de fondo */
+            color: #fff; /* Color del texto */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+          }
+          
+          .BotInicio:hover {
+            background-color: #0056b3; /* Cambia el color de fondo al pasar el mouse */
+            transform: scale(1.05); /* Efecto de escala al pasar el mouse */
+          }
+          
+        
+  
+   

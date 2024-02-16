@@ -1,0 +1,325 @@
+
+.inputC {
+    color: #0e0f0f;
+    font-size: 17px;
+    margin-bottom: 20px;
+    margin-top: 14px;
+    margin-top: 11px;
+    margin-right: 5px;
+    background: #ffffffd6;
+    width: 32%;
+    border-top: solid 4px rgb(24, 189, 211);
+    border-bottom: solid 4px rgb(24, 189, 211);
+    border-left: none;
+    border-right: none;
+    padding-left: 7px;
+    padding-top: 0px;
+}
+
+.tabla div h1{
+    color: black !important;
+}
+
+.Butbuscador {
+
+    width: 132px;
+    background: transparent;
+    color: rgb(9, 9, 9);
+    font-size: 13px;
+}
+.Buscador {
+
+    width: 70%;
+    background: #ffffff00;
+    margin-left: 15%;
+}
+
+.select {
+
+    text-align: center;
+    background: rgba(254, 252, 255, 0.941);
+    color: rgb(11, 10, 10);
+    height: 33px;
+
+}
+.tituloempre {
+    color: rgb(19, 19, 19);
+    margin-left: 3%;
+    font-size: 16px;
+    margin-right: 3%;
+    border-bottom: solid;
+
+}
+
+
+.btn::before {
+
+    content: "";
+    background-image: url("icon/acronis.png");
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+
+
+  .colum1 i { 
+
+    padding: 4px;
+    background: rgba(38, 10, 51, 0);
+    color: rgb(11, 235, 205);
+    height: 24px !important;
+    width: 27px;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-bottom: solid white 1px;
+    border-bottom-width: 1px;
+   
+}
+
+
+.colum9 i { 
+
+    padding: 4px;
+    background: rgba(38, 10, 51, 0);
+    color: black;
+    height: 24px !important;
+    width: 27px;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-bottom: solid white 1px;
+    border-bottom-width: 1px;
+   
+}
+
+
+
+.colum1 button { 
+
+   
+    background: rgb(38, 10, 51);
+    color: white;
+}
+
+
+.colum8 {
+
+    display: grid;
+            grid-template-columns: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+}
+
+.colum8 i { 
+
+    
+    padding: 4px;
+    background: rgba(38, 10, 51, 0);
+    color: rgb(11, 235, 205);
+    height: 23.9px;
+    width: 27px;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-bottom: solid white 1px;
+    border-bottom-width: 1px;
+
+
+    
+}
+
+.colum4 i { 
+    padding: 4px;
+    background: rgba(38, 10, 51, 0);
+    color: rgb(11, 235, 205);
+    height: 23.9px;
+    width: 27px;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-bottom: solid white 1px;
+    border-bottom-width: 1px;
+}
+
+.colum7 select { 
+
+    text-align: center;
+    background: rgba(52, 36, 199, 0.54);
+    color: white;
+    height: 33px;
+    position: relative;
+    bottom: 7px;
+}
+
+
+
+.tabla {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns:   50px 250px 220px 220px 110px 50px 50px 200px 50px 50px;
+    grid-template-rows: 40px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+        
+}
+
+.tabla div h1 {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 0px;
+}
+.butonempresa {
+
+    height: 80%;
+    width: 10%;
+}
+
+
+.colum2 {
+
+   
+display: grid;
+color: white;
+height: 100% !important;
+margin-left: 7px;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+.colum2 p {
+    text-align: center;
+    height: 30px;
+    margin: 1px;
+    background: #40376D;
+    font-size: 14.5px;
+    border-bottom: solid white 1px;
+    color: white;
+    overflow: hidden;
+}
+
+
+
+.colum6 { display: grid;
+grid-template-columns: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.colum6 p {
+    text-align: center;
+    height: 30px;
+    margin: 1px;
+    background: #40376D;
+    font-size: 14.5px;
+    border-bottom: solid white 1px;
+    color: white;
+}
+
+.colum3 { display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .colum3 p {
+        text-align: center;
+        height: 30px;
+        margin: 1px;
+        background: #40376D;
+        font-size: 14.5px;
+        border-bottom: solid white 1px;
+        color: white;
+    }
+
+
+    .colum4 { display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+        .colum4 p {
+            text-align: center;
+            height: 30px;
+            margin: 1px;
+            background: rgb(40, 40, 41);;
+            font-size: 14.5px;
+            border-bottom: solid white 1px;
+            color: white;
+        }
+
+
+        .colum5 { display: grid;
+            grid-template-columns: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            }
+            
+            .colum5 p {
+                text-align: center;
+                height: 30px;
+                margin: 1px;
+                background: #40376D;
+                font-size: 14.5px;
+                border-bottom: solid white 1px;
+                color: white;
+            }
+
+            
+        .colum7 { display: grid;
+            grid-template-columns: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            padding: 0px;
+            }
+            
+            .colum7 p {
+                text-align: center;
+                color: white;
+                height: 100%;
+                margin: 1px;
+                background: rgb(40, 40, 41);;
+                font-size: 14.5px;
+            }
+
+            .colum7 h1 { 
+               
+                height: 46px;
+            }
+
+
+
+
+            @media only screen and (min-width: 1400px) {  
+
+                .tabla {
+                    margin-left: 10%;
+                }
+
+            }
+
+
+
+
+            @media only screen and (min-width: 1500px) {  
+
+                .tabla {
+                    margin-left: 5%;
+                }
+
+            }
+
+
+            
+            @media only screen and (min-width: 1800px) {  
+
+                .tabla {
+                    margin-left: 10%;
+                }
+
+            }
+
+            @media only screen and (min-width: 2000px) {  
+
+                .tabla {
+                    margin-left: 20%;
+                }
+
+            }

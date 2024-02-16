@@ -1,0 +1,237 @@
+
+h1 {
+    font-size: 15px;
+}
+
+
+  .formEmpresa {
+    text-align: center;
+  }
+
+  .tituloempresa {
+    color: rgb(119 27 159);
+    padding-top: 10px;
+  
+  }
+
+  .title { color: white;
+
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.381); /* Ancho y color del borde para navegadores Webkit (Chrome, Safari) */
+    text-stroke: 1px rgb(253, 253, 253); /* Ancho y color del borde para otros navegadores */
+    color: rgb(255, 255, 255); /* Color del texto interior */
+    font-size: 16px; /* Tamaño de fuente */
+
+}
+
+.btn {
+    height: 25px;
+
+    margin: 1px;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+
+.tituloeliminar {
+    margin-top: 2px;
+    padding: 0;
+}
+
+  .horizontal-container {
+    height: 79%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
+    margin-left: 15%;
+    background: #0000002e;
+    border-radius: 10px;
+    border: solid 2px white ;
+  }
+
+  .horizontal-item {
+    flex: 1;
+    margin: 0 10px;
+  }
+
+  p {
+    margin: -5px ;
+  }
+
+
+
+
+  .listo {
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+input {
+    height: 15px;
+    width: 73%;
+}
+
+
+
+
+.listo {
+
+    height: 38px;
+}
+
+.Tabonado {
+    display: inline;
+    color: white;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.381); /* Ancho y color del borde para navegadores Webkit (Chrome, Safari) */
+    text-stroke: 1px rgb(253, 253, 253); /* Ancho y color del borde para otros navegadores */
+    color: rgb(255, 255, 255); /* Color del texto interior */
+    font-size: 16px; /* Tamaño de fuente */
+
+}
+
+.abonado {
+    position: relative;
+    top: 5px;
+    height: 20px;
+    width: 20px;
+    margin-left: 15px;
+   
+ 
+}
+
+
+.tituloempresa {
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tituloempresa h1 {
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.butempresa {
+
+display: block;
+background: rgba(21, 12, 151, 0.625);
+
+}
+
+ button { 
+    background: rgba(38, 10, 51, 0.288);
+    border: none;
+    color: white;
+    font-size: 20px;
+   
+}
+
+.centertabla {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tabla {
+width: 90%;
+margin-top: 35px;
+background: rgba(57, 58, 61, 0.656);
+display: grid;
+grid-template-columns: 40px repeat(4, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 5px;
+grid-row-gap: 0px;
+
+
+}
+
+
+.colum1 button {
+    height: 35px;
+    display: block;
+    margin: 6.5px;
+    position: relative;
+    
+    
+  
+
+}
+
+.colum2 p {
+    height: 25px;
+    font-size: 14px;
+    background: rgba(44, 12, 90, 0.671);
+    margin: 7px;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+
+
+
+}
+
+.colum1 {
+    text-align: center;  
+    color: white;
+    font-size: 12px;  
+    }
+.colum2 {
+text-align: center;  
+color: white;  
+}
+.colum3 {
+    text-align: center;  
+    color: white; 
+    }
+    .colum4 {
+        text-align: center; 
+        color: white;   
+        }
+
+       
+            
+
+
+.colum3 p {
+    height: 25px;
+    font-size: 16px;
+    background: rgba(44, 12, 90, 0.671);
+    margin: 7px;
+    text-align: center;
+    color: white;
+
+
+}
+
+.colum4 p {
+    height: 25px;
+    font-size: 16px;
+    background: rgba(44, 12, 90, 0.671);
+    margin: 7px;
+    text-align: center;
+    color: white;
+
+}

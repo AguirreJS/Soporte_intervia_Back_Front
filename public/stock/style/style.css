@@ -1,0 +1,455 @@
+
+
+* {
+    
+	
+	font-family: 'Poppins', sans-serif;
+    
+}
+
+
+
+
+
+
+.imgpri {
+  position: relative;
+  bottom: 40px;
+  margin-left: 35px;
+  width: 240px;
+}
+
+
+.ContenedorResponsiv {
+  padding-top: 10px;
+ width: 350px;
+  height: 250px;
+  background: #7b28b6;
+  display: grid;
+  grid-template-columns: 5px 250px 45px;
+  grid-template-rows: 80px 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+   
+  
+}
+
+.menuimg {
+  margin-top: 110px;
+  margin-left: 10px;
+  font-size: 22px;
+  color: white;
+}
+
+
+.checked {
+  margin-left: 5px;
+  height: 1px;
+  width: 1px;
+  position: relative;
+  right: 200%;
+}
+
+.checked:checked + .menufinal {
+  position: absolute;
+  left: 10px;
+}
+
+
+.menufinal {
+  position: absolute;
+  bottom: 200px;
+  right: 800px !important;
+  background: #b749eb;
+  width: 200px;
+  border: solid 2px white;
+  border-radius: 2%;
+  box-shadow: 4px 4px 2px rgb(252, 250, 250);
+
+  
+}
+
+.menufinal li a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  margin-left: 2px;
+}
+
+.menufinal li {
+  color: white;
+  margin-left: 3px;
+}
+
+
+.interviaLogo {
+  height: 80px;
+  width: 300px;
+  margin-left: 15px;
+  grid-area: 1 / 1 / 2 / 6;
+
+
+}
+.redesocialesTelefonos {
+  width: 40px;
+  margin-top: 75px;
+  margin-left: 45px;
+}
+
+
+.redesocialesTelefonos a img {
+  height: 25px;
+  width: 25px;
+  display: block;
+}
+.redesocialesTelefonos a {
+
+  display: block;
+}
+
+.publiTelefonos img {
+
+  height: 300px;
+  width: 300px;
+  margin-left: 5%;
+
+}
+
+
+
+
+
+
+#menu {
+  background-color: #fff;
+  height: 60px;
+  width: 60px;
+}
+
+#menu.active {
+  background-color: #ddd;
+}
+:root {
+--color1:rgb(127, 87, 157);
+--color2:linear-gradient(90deg, #7b6bfa 0%, #1dd332 100%);
+--color3:#1dd332;
+--color4:#19B92C;
+--color5:#e67979;
+--sombra:black;
+--color6:#22dc30;
+--fondo: white;
+
+}
+
+
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	
+}
+
+body {
+  background-image: url(img/imagen_fondo.jpg);
+  background-size: cover;
+
+  background-size: 100% auto;
+  
+   
+}
+
+
+
+
+
+
+.tikets {
+	/* AquÃ­ van las propiedades de estilo que quieras aplicar al elemento */
+	transform: perspective(500px) rotateX(0deg);
+	transition: transform 0.5s;
+	box-shadow: 0 2px 4px rgba(14, 14, 14, 0);
+  }
+  
+  /* Esta clase se aplicarÃ­a al elemento cuando se haga hover sobre Ã©l */
+  .tikets:hover {
+	transform: perspective(500px) rotateX(-20deg);
+	box-shadow: 0 6px 8px rgba(0, 0, 0, 0);
+  }
+	
+
+
+
+  .arrow-left {
+    margin-left: 12px;
+    text-decoration: none;
+    color: rgb(119 27 159);
+    display: inline-block;
+ 
+  }
+  
+
+  .butuser {
+    font-size: 20px;
+    display: block;
+    margin-left: 25%;
+    margin-top: 20px;
+    background: transparent;
+    color: white;
+    padding: 5px;
+    border: solid;
+}
+
+
+
+
+#content {
+  min-height: calc(100% - 50px); /* Establecemos una altura mÃ­nima para el contenido, restando el alto del pie de pÃ¡gina */
+}
+.publicidadindex{
+  margin-left: 17%;
+  width: 80% ;
+display: grid;
+display: grid;
+grid-template-columns: repeat(2, 2fr);
+grid-template-rows: repeat(2, 2fr);
+grid-column-gap: 30px;
+grid-row-gap: 30px; }
+
+.publicidadindex img { 
+  
+
+  width: 65%;
+  height: 100%;
+  opacity: 0.6; 
+  transition: opacity 0.75s; 
+
+} 
+
+.publicidadindex img:hover {
+  opacity: 1; 
+
+
+}
+
+.logofooter {
+  position: absolute;
+  margin-left: 80%;
+  height: 70px;
+  width: 230px;
+  bottom: -410px;
+}
+
+
+
+footer {
+  width: 100%; 
+  height: 170px; 
+  margin-top: 30px;
+  box-shadow: 0 -5px 5px rgb(0, 0, 0); 
+  border: solid 1px black;
+  background: rgb(127,87,157);
+background: linear-gradient(5deg, rgba(127,87,157,1) 0%, rgba(132,30,221,1) 37%, rgba(97,74,115,1) 69%, rgba(127,87,157,1) 95%);
+  color: rgb(3, 255, 209);
+  padding: 20px;
+  
+}
+.footer-container {
+
+  
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 120px;
+    grid-row-gap: 0px;
+    margin-left: 10%;
+    
+
+
+}
+
+
+
+.footer-section {
+  width: 33%;
+}
+
+.footer-section h3 {
+  margin-bottom: 10px;
+}
+
+.footer-section a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-section img {
+
+  height: 83px;
+  width: 300px;
+}
+.redes-sociales a img {
+  position: relative;
+  left: 92%;
+  display: none;
+  position: fixed;
+  width: 25px !important;
+  height: 25px !important;}
+
+  .red1 {
+    bottom: 650px;
+  }
+  .red2 {
+    bottom: 620px;
+  }
+  .red3 {
+    bottom: 590px;
+  }
+
+
+
+
+
+ 
+
+
+  
+
+
+@media only screen and (min-width: 2px){
+.redes-sociales a img {
+  margin: 7px;
+  display: none;
+  position: fixed;
+  width: 25px !important;
+  height: 25px !important;
+  
+  } 
+
+
+
+
+
+}
+
+  @media only screen and (min-width: 200px){ 
+
+.menufinal {
+
+  top: 280px;
+  position: absolute;
+  height: 220px;
+}
+
+  }
+  @media only screen and (min-width: 390px){ 
+
+   .ContenedorResponsiv{
+    width: 100%;
+   }
+    
+   .menufinal {
+
+    right: 450px;
+  }
+      }
+
+     
+
+
+
+@media only screen and (min-width: 430px){ 
+
+  .ContenedorResponsiv {
+    display: grid;
+grid-template-columns: 20% 1fr 20%;
+grid-template-rows: 20% 80%;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+  }
+  .interviaLogo {
+    grid-area: 1 / 1 / 2 / 4;
+    margin-left: 10%;
+  }
+
+  .imgpri {
+    margin-left: 0px;
+    margin-top: 40px;
+  }
+
+  .redesocialesTelefonos {
+    margin-left: 0px;
+  }
+
+  .publiTelefonos img {
+
+    margin-left: 15%;
+    
+  }
+  
+
+
+  
+}
+
+
+
+@media only screen and (min-width: 430px){ 
+  .interviaLogo {
+    margin-left: 15%;
+  }
+}
+
+
+@media only screen and (min-width: 580px){ 
+  .interviaLogo {
+    margin-left: 20%;
+  }
+
+  .imgpri {
+    margin-left: 10%;
+  }
+
+
+  .publiTelefonos img {
+
+    margin-left: 10%;
+   width: 75%;
+   height: 400px;
+    
+  }
+}
+
+@media only screen and (min-width: 740px){ 
+  .interviaLogo {
+    margin-left: 28%;
+  }
+
+  .imgpri {
+    margin-left: 20%;
+  }
+
+
+  .publiTelefonos img {
+
+    margin-left: 10%;
+   width: 75%;
+   height: 500px;
+    
+  }
+
+  .menuimg {
+    margin-left: 25%;
+  }
+}
+
+
+@media only screen and (min-width: 800px){  
+
+.menufinal {
+  right: 1000px !important;
+}
+
+
+}

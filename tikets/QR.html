@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Tikets Intervia</title>
+	<link rel="icon" type="image/svg" href="../icon/32x32.png" sizes="32x32">
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<link rel="stylesheet" type="text/css" href="../cabecera.css">
+	<link rel="stylesheet" type="text/css" href="../menuHerramientas.css">
+	<link rel="stylesheet" type="text/css" href="../publicidad.css">
+	<link rel="stylesheet" type="text/css" href="../responsiveNewticket.css">
+	<link rel="stylesheet" type="text/css" href="../iconos.css">
+	<link rel="stylesheet" type="text/css" href="../QR.css">
+	<link rel="stylesheet" type="text/css" href="../fondo.css">
+  <link rel="stylesheet" type="text/css" href="../tickets.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+
+	<div class="fondoblack" id="fondoblack"><div class="menuEmergente" id="menuEmergente">    </div></div>
+
+<div class="menuPantalla"> 
+	<div class="MenuInicio">
+		<div> <a href="../" ><img href="../" src="../img/Intervia_inicio.png"></a></div>	
+		
+		<div> <h1 class="Titulo">Sistema de Tickets</h1> 
+		<h2 id="Usuario"></h2></div>
+		
+		<div class="InicioLogin">
+			
+		<a href="../iniciar.html" id="iniciar"> <p class="simbolomas">+</p> <p class="iniciologinbotones" > Iniciar Session </p></a>
+							<a href="../login.html" id="regis"><p class="simbolomas"> &#8594; </p> <p class="iniciologinbotones">  Registrarme</p> </a>
+						
+		
+		</div>
+		
+		</div>
+		
+		
+		<div class="menuDeOpciones">
+		<div class="Opciones">
+		<a href="../newtiket" class="titulo-menu" > Iniciar un ticket </a>  
+		
+		<a href="../historialv" class="titulo-menu" > Historial </a> 
+		
+		 <a  href="../panel" class="titulo-menu" > Panel de control </a> 
+		</div>
+		<div class="redes">
+			<a href="https://www.instagram.com/interviaarg/?hl=es"target="_blank"> <img src="../img/icono_ig.png"> </a>
+			<a href="mailto:soporte2@rhglobal.com.ar" target="_blank" ><img src="../img/icono_mail.png"></a>
+			<a href="https://api.whatsapp.com/send?phone=1156303045" target="_blank" > <img src="../img/icono_wp.png"></a>
+		</div>
+		</div>
+		
+		
+		
+		
+		
+	
+	
+
+<a href="../index.html" class="arrow-left">
+	<i class="fa fa-arrow-left"> Inicio </i>
+  </a>
+  
+ <div class="btikets">
+
+
+
+ <div>
+
+    <label class="inputD" for="user"> ASUNTO <img id="alert1" class="alertCC" src="../icon/alert.png"> <p id="alert2"> Maximo 40 Caracteres</p> </label> 
+    <input class="inputC" type="text" id="asunto" placeholder="ASUNTO" > 
+
+    <label  class="inputD descrip2" for="user"> DESCRIPCION </label>
+    <textarea class="inputC" type="text" id="descrip" placeholder="DESCRIPCION" > </textarea>
+   
+    <label class="inputD"  for="user"> ANYDESK (NO OBLIGATORIO) </label>
+    <input  class="inputC" type="text" id="any" placeholder="9 DIGITOS NUMERICOS" > 
+
+	<label class="inputD"  for="user"> CAPTURA DEL ERROR (NO OBLIGATORIO) </label>
+	<input class="inputC descarga1" id="imagen" type="file" name="imagen" accept="image/*">
+	
+  
+    <button type="button" class="BotInicio" onclick="ok()"> Enviar Ticket </button>
+
+ </div>
+
+  </div>
+</div>
+
+
+<div class="Telefonos"  >
+
+
+<div class="fotelefono">
+
+<a href="../" ><img class="fotelefonoimg" src="../img/Intervia_inicio.png"></a>
+
+
+
+
+</div>
+
+
+
+<h1 class="titulosesion">Generar Ticket</h1>
+
+
+
+
+
+
+
+<div class="container">
+	<label class="label" for="user">
+	  ASUNTO <br>
+	  <img class="alert" src="../icon/alert.png">
+	  <p class="alert-text">Maximo 40 Caracteres</p>
+	</label>
+	<input class="input" type="text" id="asunto1" placeholder="ASUNTO">
+  
+	<label class="label descrip1" for="user">
+	  DESCRIPCION
+	</label>
+	<textarea class="input" type="text" id="descrip1" placeholder="DESCRIPCION"></textarea>
+  
+	<label class="label" for="user">
+	  ANYDESK (NO OBLIGATORIO)
+	</label>
+	<input class="input" type="text" id="any" placeholder="9 DIGITOS NUMERICOS">
+  
+	<label class="label" for="user">
+	  CAPTURA DEL ERROR (NO OBLIGATORIO)
+	</label>
+	
+  </div>
+		
+  <input class="input descarga1" id="imagen1"  type="file" name="imagen" accept="image/*">
+	 
+	  <div id="cargando" class="progress">
+		<div class="progress-value"></div> </div>
+		<div class="butgrid">
+	  <button type="button" class="BotInicio2" id="but" onclick="ok1()"> ENVIAR TICKET </button> 
+
+	  <br>
+	  <br>
+	
+	   </div>
+	  
+	
+	  
+	
+		
+	
+				
+				
+				
+			 
+			
+
+
+
+
+
+
+
+<div class="redestelefono">
+
+	<a href="https://www.instagram.com/interviaarg/?hl=es"target="_blank"> <img  src="../img/icono_ig.png"> </a>
+	<a href="mailto:soporte2@rhglobal.com.ar" target="_blank" ><img src="../img/icono_mail.png"></a>
+	<a href="https://api.whatsapp.com/send?phone=+541156303045" target="_blank" > <img src="../img/icono_wp.png"></a>
+
+
+
+</div>
+
+</div>
+
+
+
+  
+
+
+
+
+
+
+
+    <script src="../QR.js" > </script> 
+
+
+</body>
+
+</html>

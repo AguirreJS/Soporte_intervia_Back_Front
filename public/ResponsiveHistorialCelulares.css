@@ -1,0 +1,949 @@
+
+
+
+@media only screen and (min-width: 0px) { 
+
+    .Pantalla {
+        display: none;
+    }
+
+.Telefonos  {
+
+display: inline-block;
+height: 550px;
+width: 100vw;
+background: rgb(106,83,149);
+background: -moz-linear-gradient(90deg, rgba(106,83,149,1) 48%, rgba(103,25,172,1) 79%);
+background: -webkit-linear-gradient(90deg, rgba(106,83,149,1) 48%, rgba(103,25,172,1) 79%);
+background: linear-gradient(90deg, rgba(106,83,149,1) 48%, rgba(103,25,172,1) 79%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6a5395",endColorstr="#6719ac",GradientType=1);
+
+} 
+
+
+.fotelefono {
+    display: inline-block;
+   
+    width: 100%;
+    background: rgb(106,83,149);
+    background: -moz-linear-gradient(90deg, rgba(106,83,149,1) 48%, rgba(103,25,172,1) 79%);
+    background: -webkit-linear-gradient(90deg, rgba(106,83,149,1) 48%, rgba(103,25,172,1) 79%);
+    background: linear-gradient(90deg, rgba(106,83,149,1) 48%, rgba(103,25,172,1) 79%);
+}
+
+.fotelefonoimg {
+    display: inline-block;
+    height: 15vw;
+    margin: 8px;
+ 
+}
+.telefonostitulo1 {
+        /* background: #29d2be4f; */
+        color: #fff;
+        font-size: 22px;
+        text-align: center;
+}
+
+.fotelefonomenu {
+    
+    display: inline-block;
+    height: 8vw;
+    width: 8vw;
+    margin-bottom: 58%;
+    margin-left: 15%;
+}
+
+
+.telefonostitulo {
+    background: #29d2be4f;
+    color: black;
+    font-size: 22px;
+
+    text-align: center;
+
+}
+
+.telefonoslinea {
+
+    height: 12px;
+    width: 45px;
+    background: #87ffd5;
+    margin-left: 10%;
+
+
+
+}
+
+.teleBienvenidos {
+
+    color: white;
+    font-size: 7vw;
+    margin-left: 10%;
+    margin-top: 10%;
+
+}
+
+.telRegistrarme {
+
+    height: 50px;
+    width: 76%;
+    background: #87ffd5;
+    margin: 20px;
+
+
+}
+
+.telRegistrarme a{
+
+    text-decoration: none;
+    color: rgb(70, 7, 130);
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.redestelefono {
+   position: fixed;
+ bottom: 0;
+    margin-top: 90px;
+    height: 75px;
+    width: 100%;
+    background: rgb(65, 16, 113);
+
+}
+
+.redestelefono a img {
+ 
+  height: 35px;
+  width: 35px;
+  margin: 5%;
+  margin-left: 15%;
+
+  
+
+}
+
+.menuDeOpcionestel {
+
+    position: fixed;
+    height: 278px;
+    width: 227px;
+    background: white;
+    margin-left: 40%;
+    border-radius: 25px;
+    display: none;
+    
+}
+
+.menuDeOpcionestel img {
+
+    margin-left: 67%;
+    margin-bottom: -50px;
+
+
+}
+
+.menuDeOpcionestel a { 
+
+    display: inline-block;
+    width: 100% !important;
+   margin-left: 15%;
+    text-decoration: none;
+    margin-top: 10%;
+    color: rgb(118, 74, 159);  
+    font-size: 19px;                                                                                                    
+}
+
+.lineamenu {
+    margin-top: 5px;
+    margin-left: 15%;
+    height: 5px;
+    width: 145px;
+    background: rgb(118, 74, 159);
+}
+
+.img1 {
+    margin-top: 14% !important;
+}
+
+.divmenu {
+    display: inline-block;
+    height: 20%;
+    margin-left: 15%;
+    
+}
+
+.divmenu1 {
+margin-bottom: 15%;
+
+}
+
+
+.Nomusuario {
+
+    color: #87ffd5;
+    margin-left: 10%;
+}
+
+.salir2tel {
+  
+
+    color: rgb(0 0 0) !important;
+    margin-left: 45% !important;
+    width: 57px !important;
+    margin-top: 15%;
+    border: solid white 2px !important;
+    padding-left: -5px;
+    font-size: 12px;
+    text-align: center;
+    background: #41e0cd;
+    
+}
+
+
+
+
+}
+
+@media only screen and (min-width: 355px) {  
+
+    .Telefonos {
+        height: 175vw;
+
+
+} }
+
+
+@media only screen and (min-width: 850px) { 
+
+    .Telefonos {
+   
+    display: none;
+    
+}
+
+.Pantalla {
+
+    display: inline;
+}
+    
+    
+    }
+
+
+    .asunto {
+        font-size: 15px;
+        /* padding-left: 42%; */
+        border-bottom: 2px solid black;
+        text-align: center;
+        width: 50%;
+        margin-top: 1%;
+        margin-left: 25%;
+      
+      }
+      
+      
+      
+      .numerotikk {
+       
+        border-bottom: solid 2px black;
+        background: #40376d;
+        text-align: center;
+        display: inline-block;
+        font-size: 17px;
+        padding: 5px;
+        color: white;
+        border-left: 2px solid rgb(255, 255, 255);
+        border-top: 2px solid white;
+      }
+      
+      .tikk {
+        width: 35%;
+        display: inline-block;
+        font-size: 17px;
+        background: #40376d;
+     
+        text-align: inherit;
+        border-bottom: solid 2px black;
+        padding: 5px;
+        color: white;
+        border-top: 2px solid white;
+        
+      }
+      .empresaclass {
+       display: none !important;
+        font-size: 17px;
+          display: inline-block;
+          width: 12%;
+          background: #40376d;
+          border-bottom: solid 2px black;
+          color: white;
+          padding: 5px;
+          border-top: 2px solid white;
+      }
+      .empresaclass1 {
+       
+        font-size: 17px;
+          display: inline-block;
+          width: 40% !important;
+          background: #40376d;
+          border-bottom: solid 2px black;
+          border-right: solid 2px black ;
+          padding: 5px;
+          color: white;
+          border-top: 2px solid white;
+      }
+      
+      
+      .estadoimg {
+        width: 36px;
+          margin-bottom: -12px;
+      }
+      
+      .nomape1 {
+        font-size: 18px;
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-top: 12px;
+        display: inline-block;
+      }
+      
+      
+      .nomape {
+        font-size: 18px;
+        width: 100%;
+        display: inline-block;
+      }
+      
+      
+      
+    
+.fecha1 {
+    font-size: 22px;
+    margin-bottom: 12px;
+   
+}
+      
+      
+      
+      
+      .asunto1 {
+        
+       font-size: 22px;
+       text-align: center;
+      }
+      
+      
+      
+      textarea {
+        white-space: pre-wrap;
+      }
+      
+      .butzs {
+        background: #ff000000;
+          color: white;
+          padding: 5px;
+          padding-left: 20px;
+          padding-right: 20px;
+          margin-right: 20px;
+          margin-bottom: 20px;
+          margin-left: 10%;
+      }
+      
+      .butzs1 {
+        background: #ff000000;
+          color: white;
+          padding: 5px;
+          padding-left: 20px;
+          padding-right: 20px;
+          margin-right: 20px;
+          margin-bottom: 20px;
+          margin-left: 15px;
+      }
+      
+      .selec {
+      
+        border: solid rgb(255, 255, 255) 3px;
+        text-align: center;
+        width: 18%;
+        text-align: center;
+        font-size: 19px;
+      }
+      
+      .filtro {
+      
+      color: white;
+      margin-left: 10px;
+      margin-right: 10px;
+      
+      }
+      
+      .inputC {
+          color: #0e0f0f;
+          font-size: 17px;
+          margin-bottom: 20px;
+          margin-top: 14px;
+          margin-top: 11px;
+          margin-right: 5px;
+          background: #ffffffd6;
+          width: 32%;
+          border-top: solid 4px rgb(24, 189, 211);
+          border-bottom: solid 4px rgb(24, 189, 211);
+          border-left: none;
+          border-right: none;
+          padding-left: 7px;
+          padding-top: 0px;
+      }
+      
+      
+      
+      .che {
+        display: inline-block;
+        margin-right: 100px;
+        height: 25px;
+        width: 25px;
+        background: blue;
+        margin-left: 50%;
+      }
+      
+      .tikd1 {
+      
+      text-align: center;
+      width: 100% !important;
+      font-size: 20px !important;
+      margin-top: 25px;
+      margin-left: 0px !important;
+      
+      }
+      
+      .fas {
+        display: inline-block !important;
+        margin-top: 12px;
+        margin-left: 25px;
+        margin-right: 40px;
+      
+      } 
+      .masbtn {
+        display: block;
+        margin-left: 85% ;
+      }
+      
+      
+      
+      .colum div textarea { 
+      
+        width: 60%;
+        height: 100px;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-left: 20%;
+        margin-bottom: 20px;
+        padding: 5px;
+        border: none;
+        background: rgba(212, 216, 212, 0.39);
+        resize: none;
+          
+          
+       
+      
+      
+      }
+      
+      
+      
+      .colum {
+        background: #40376d !important;
+          padding: 20px;
+         
+
+          
+      }
+      
+      .colum li {
+          width: 100%;
+          text-align: center;
+          font-size: 40px;
+          justify-content: center;
+      
+      
+      }
+      .colum div {
+        
+          background: rgba(255, 255, 255, 0.693);
+      
+      }
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      .colum div h2 { 
+         
+          margin-bottom: 25px;
+          text-align: center;
+          background: rgba(250, 249, 249, 0.561);
+          font-size: 20px;
+          width: 100%;
+          
+      
+      
+      }
+      
+      .colum div h3 {
+      
+          margin-top: 14px;
+          
+          background: rgba(255, 255, 255, 0.561);
+          display: inline-block;
+      
+          text-align: center;
+          font-size: 20px;
+          width: 100%;
+          margin-bottom: 20px;
+      }
+      
+      .colum div h5 { 
+      
+          margin: 17px;
+          font-size: 17px;
+          text-align: center;
+          margin-bottom: 12px;
+      
+      
+      
+      
+      }
+      
+      .colum h4 {
+      
+        font-size: 30px;
+        margin-left: 17%;
+        margin-bottom: 25px;
+        color: rgb(255, 255, 255);
+      
+      
+      } 
+      
+      .colum div button {
+      
+          display: inline-block;
+          font-size: 12px;
+          background: rgba(21, 8, 132, 0.249);
+          padding-left: 5px;
+          padding-right: 5px;
+        
+      }
+      
+      
+      
+      
+       .colum div select { 
+      
+      width: 12%;
+      font-size: 20px;
+      margin-left: 44%;
+      
+          
+       }
+      
+       .btn2a  {
+      
+          display: block;
+      
+          font-size: 22px !important;
+          padding: 5px !important;
+          width: 120px ;
+       }
+      
+       .btn2a:hover {
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+      
+      
+        @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css');
+      
+      /* Estilo para el botón */
+      .btn {
+        /* Otros estilos para el botón */
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 55px;
+        height: 25px;
+        background-color: #333;
+        color: rgba(22, 6, 6, 0.415);
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: all 1s !important;
+      }
+      
+      /* Estilo para el icono */
+      .btn::before {
+        /* Utiliza la clase de la fuente de iconos para mostrar el icono de tacho de basura */
+        content: "\f1f8";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        margin-right: 8px; /* Espacio entre el icono y el texto */
+      
+      }
+      
+      .btn:hover::before {
+          content: "Eliminar";
+          color: rgb(73, 69, 69);
+        }
+      
+      
+        .btn2 {
+          /* Otros estilos para el botón */
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          width: 75px;
+          height: 25px;
+          background-color: #333;
+          color: #fff;
+      
+          border-radius: 4px;
+          cursor: pointer;
+          transition: all 1s !important;
+        }
+        
+        /* Estilo para el icono */
+        .btn2::after {
+          /* Utiliza la clase de la fuente de iconos para mostrar el icono de flecha hacia abajo */
+          content: "\f107";
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          margin-left: 8px; /* Espacio entre el texto y el icono */
+        }
+      
+        .btn2:hover::before {
+          content: "Ampliar";
+        }
+      
+      
+        .btn2 {
+          /* Otros estilos para el botón */
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          width: 75px;
+          height: 25px;
+          background-color: #333;
+          color: #fff;
+      
+          border-radius: 4px;
+          cursor: pointer;
+          transition: all 1s !important;
+        }
+        
+        /* Estilo para el icono */
+        .btnM::after {
+          /* Utiliza la clase de la fuente de iconos para mostrar el icono de flecha hacia abajo */
+          content: "\f106";
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          margin-left: 8px; /* Espacio entre el texto y el icono */
+        }
+      
+        .btnM:hover::before {
+          content: "Menos";
+        }
+      
+        .btnM {
+          /* Otros estilos para el botón */
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          width: 75px;
+          height: 25px;
+          background-color: #333;
+          color: #fff;
+        
+          border-radius: 4px;
+          cursor: pointer;
+          transition: all 1s !important;
+        }
+      
+        .btnimg {
+          background-color: purple;
+      
+          color: white;
+          margin-top: 20px;
+          font-size: 17px !important;
+          margin-left: 10px;
+      }
+      
+      .btnimg:hover {
+        box-shadow: 0 0 15px #534f4f;
+      }
+      
+      @media only screen and (min-width: 850px) { 
+      
+      
+      .colum div {
+        width: 100%;
+        margin-left: -2.2%;
+      }
+      
+      .colum {
+        width: 96%;
+        margin-left: 0%;
+      }
+      
+      
+      
+      
+      }
+      
+      
+      @media only screen and (min-width: 1250px) { 
+      
+      
+      
+        .colum {
+          padding: 20px;
+          background: #40376d;
+          width: 80%;
+          margin-left: 10%;
+          margin-top: 5%;
+          
+      }
+      
+      .colum li {
+          width: 100%;
+          text-align: center;
+          font-size: 40px;
+          justify-content: center;
+      
+      
+      }
+      .colum div {
+          width: 80%;
+          margin-left: 10%;
+          background: rgba(255, 255, 255, 0.693);
+          margin-bottom: 10px;
+          padding: 15px;
+      }
+      
+      
+      
+      
+      
+      .colum div h1 {
+      
+          display: inline-block;
+        
+      
+       
+      }
+      
+      
+      .colum div h2 { 
+         
+          margin-bottom: 25px;
+          text-align: center;
+          background: rgba(250, 249, 249, 0.561);
+          width: 100%;
+          
+      
+      
+      }
+      
+      .colum div h3 {
+      
+          margin-top: 14px;
+          
+          background: rgba(255, 255, 255, 0.561);
+          display: inline-block;
+          border: none;
+          text-align: center;
+      
+          width: 100%;
+          margin-bottom: 20px;
+      }
+      
+      .colum div h5 { 
+      
+          margin: 17px;
+          width: 95%;
+          text-align: center;
+      
+      
+      
+      
+      }
+      
+      .colum h4 {
+      
+         
+          margin-left: 17%;
+          margin-bottom: 25px;
+      
+      
+      } 
+      
+      .colum div button {
+      
+          
+          font-size: 12px;
+          background: rgba(21, 8, 132, 0.249);
+          padding-left: 5px;
+          padding-right: 5px;
+        
+      }
+      
+      
+      
+       .colum div select { 
+      
+      width: 12%;
+      font-size: 12px;
+      margin-left: 44%;
+      
+          
+       }
+      
+       .btn2a  {
+      
+          display: block;
+      
+          font-size: 22px !important;
+          padding: 5px !important;
+          width: 120px ;
+       }
+      
+       .btn2a:hover {
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+      
+      
+        @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css');
+      
+      /* Estilo para el botón */
+      .btn {
+        /* Otros estilos para el botón */
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 55px;
+        height: 25px;
+        background-color: #333;
+        color: rgba(22, 6, 6, 0.415);
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: all 1s !important;
+      }
+      
+      /* Estilo para el icono */
+      .btn::before {
+        /* Utiliza la clase de la fuente de iconos para mostrar el icono de tacho de basura */
+        content: "\f1f8";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        margin-right: 8px; /* Espacio entre el icono y el texto */
+      
+      }
+      
+      .btn:hover::before {
+          content: "Eliminar";
+          color: rgb(73, 69, 69);
+        }
+      
+      
+        .btn2 {
+          /* Otros estilos para el botón */
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          width: 75px;
+          height: 25px;
+          background-color: #333;
+          color: #fff;
+      
+          border-radius: 4px;
+          cursor: pointer;
+          transition: all 1s !important;
+        }
+        
+        /* Estilo para el icono */
+        .btn2::after {
+          /* Utiliza la clase de la fuente de iconos para mostrar el icono de flecha hacia abajo */
+          content: "\f107";
+         
+          font-weight: 900;
+          margin-left: 8px; /* Espacio entre el texto y el icono */
+        }
+      
+        .btn2:hover::before {
+          content: "Ampliar";
+        }
+      
+      
+        .btn2 {
+          /* Otros estilos para el botón */
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          width: 75px;
+          height: 25px;
+          background-color: #333;
+          color: #fff;
+      
+          border-radius: 4px;
+          cursor: pointer;
+          transition: all 1s !important;
+        }
+        
+        /* Estilo para el icono */
+        .btnM::after {
+          /* Utiliza la clase de la fuente de iconos para mostrar el icono de flecha hacia abajo */
+          content: "\f106";
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          margin-left: 8px; /* Espacio entre el texto y el icono */
+        }
+      
+        .btnM:hover::before {
+          content: "Menos";
+        }
+      
+        .btnM {
+          /* Otros estilos para el botón */
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          width: 75px;
+          height: 25px;
+          background-color: #333;
+          color: #fff;
+      
+          border-radius: 4px;
+          cursor: pointer;
+          transition: all 1s !important;
+        }
+      
+        .btnimg {
+          background-color: purple;
+      
+          color: white;
+          margin-top: 20px;
+          font-size: 17px !important;
+      }
+      
+      .btnimg:hover {
+        box-shadow: 0 0 15px #534f4f;
+      }
+      
+      
+      
+      }
+      
+      
+   

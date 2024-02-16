@@ -1,0 +1,184 @@
+
+* {
+    text-decoration: none;
+}
+
+
+
+.icono1 {
+
+height: 30px;
+width: 30px;
+
+
+}
+
+
+.icono2 {
+
+    height: 35px !important;
+    width: 35px;
+  
+    
+
+
+}
+
+#Usuario1 {
+
+    display: none;
+} 
+
+
+.icono3 { 
+   text-decoration: none;
+    height: 50px !important;
+    width: 50px;
+}
+
+
+.icono4 {
+
+    text-decoration: none;
+    height: 55px !important;
+    margin: 5px;
+
+   
+    
+
+
+}
+
+.icono5 {
+
+    height: 35px !important;
+    width: 35px;
+    position: relative;
+    text-decoration: none;
+
+
+}
+
+.icono6 {
+
+    height: 45px !important;
+    width: 45px;
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    top: 60px;
+    right: 265px;
+    
+}
+
+
+.icono7 {
+        
+    text-decoration: none;
+    position: relative;
+    top: 60px;
+    right: 270px;
+        height: 45px !important;
+        width: 45px;
+        display: inline-block;
+}
+
+
+
+
+  .intervia {
+
+margin-left: 100px;
+
+  }
+
+
+  .iconoUser {
+        position: relative;
+        bottom: 110px !important;
+        height: 35px !important;
+        width: 35px;
+        left: 100px;
+
+
+
+  }
+
+  @media only screen and (min-width: 1200px) { 
+
+    .iconoUser {
+        position: relative;
+        bottom: 110px !important;
+        height: 35px !important;
+        width: 35px;
+        left: 180px !important;
+  }
+
+  .titulo h2 {
+
+    position: relative;
+    bottom: 120px !important;
+    left: 180px !important;
+  }
+
+  }
+
+
+  @media only screen and (min-width: 1500px) { 
+
+    .iconoUser {
+        position: relative;
+        bottom: 110px !important;
+        height: 35px !important;
+        width: 35px;
+        left: 180px !important;
+  }
+
+  .titulo h2 {
+
+    position: relative;
+    bottom: 120px !important;
+    left: 180px !important;
+  }
+
+  }
+
+
+  @media only screen and (min-width: 2100px) { 
+
+    .iconoUser {
+        position: relative;
+        bottom: 110px !important;
+        height: 35px !important;
+        width: 35px;
+        left: 250px !important;
+  }
+
+  .titulo h2 {
+
+    position: relative;
+    bottom: 120px !important;
+    left: 250px !important;
+  }
+
+  }
+
+
+  @media only screen and (min-width: 2500px) { 
+
+    .iconoUser {
+        position: relative;
+        bottom: 110px !important;
+        height: 35px !important;
+        width: 35px;
+        left: 300px !important;
+  }
+
+  .titulo h2 {
+
+    position: relative;
+    bottom: 120px !important;
+    left: 300px !important;
+  }
+
+  }

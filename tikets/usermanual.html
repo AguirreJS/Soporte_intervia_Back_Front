@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Tickets Intervia</title>
+	<link rel="icon" type="image/svg" href="icon/32x32.png" sizes="32x32">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="cabecera.css">
+	<link rel="stylesheet" type="text/css" href="menuHerramientas.css">
+	<link rel="stylesheet" type="text/css" href="publicidad.css">
+	<link rel="stylesheet" type="text/css" href="iconos.css">
+	<link rel="stylesheet" type="text/css" href="fondo.css">
+  <link rel="stylesheet" type="text/css" href="usermanual.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+		
+	
+
+
+
+<div class="MenuInicio">
+	<div> <a href="/" ><img href="/" src="img/Intervia_inicio.png"></a></div>	
+	
+	<div> <h1 class="Titulo">Sistema de Tickets</h1> 
+	<h2 id="Usuario"></h2></div>
+	
+	<div class="InicioLogin">
+		
+	<a href="/iniciar.html" id="iniciar"><p class="iniciologinbotones" > + Iniciar Session </p></a>
+						<a href="/login.html" id="regis"> <p class="iniciologinbotones"> ►  Registrarme</p> </a>
+						<a id="salir" onclick="salir()"> <p class="simbolomas"> </p><p class="salir"> × SALIR </p></a>
+	
+	</div>
+	
+	</div>
+	
+	
+	<div class="menuDeOpciones">
+	<div class="Opciones">
+	<a href="/newtiket" class="titulo-menu" > Iniciar un ticket </a>  
+	
+	<a href="/historialv" class="titulo-menu" > Historial </a> 
+	
+	 <a  href="/panel" class="titulo-menu" > Panel de control </a> 
+	</div>
+	<div class="redes">
+		<a href="https://www.instagram.com/interviaarg/?hl=es"target="_blank"> <img src="img/icono_ig.png"> </a>
+		<a href="mailto:soporte2@rhglobal.com.ar" target="_blank" ><img src="img/icono_mail.png"></a>
+		<a href="https://api.whatsapp.com/send?phone=1156303045" target="_blank" > <img src="img/icono_wp.png"></a>
+	</div>
+	</div>
+	
+	
+	<div class="NewUser">
+
+		<label for="nombre" class="tituloNewUser">Nombre</label>
+		<input type="text" id="nombreNew" name="nombre" class="inputNewUser" />
+	
+		<label for="apellido" class="tituloNewUser">Apellido</label>
+		<input type="text" id="apellidoNew" class="inputNewUser" />
+	
+		<label for="correo" class="tituloNewUser">Correo</label>
+		<input type="email" id="correoNew" name="correo" class="inputNewUser" />
+	
+	
+		<label for="empresa" class="tituloNewUser">Empresa</label>
+		<select id="selectionEmpresa" name="empresa" class="inputNewUser">
+			<option id="Active">Seleccion Automatica</option>
+		</select>
+	
+		<button onclick="envioLogin()" class="btnAgregar">Agregar usuario</button>
+	
+	</div>
+
+	
+	
+
+
+
+	<a href="index.html" class="arrow-left">
+		<i> Inicio    /  </i>
+	  </a>  
+	  <a href="panel" class="arrow-left">
+		<i> Panel de Control / </i>
+	  </a>
+	  <a href="usermanual" class="arrow-left">
+		<i> Iniciar un ticket particular /</i>
+	  </a>
+	  <a href="usersin" class="arrow-left">
+		<i> Cargar Usuario /	</i>
+	  </a>
+	  <a href="lusuarios" class="arrow-left">
+		<i>  Usuarios /	</i>
+	  </a>
+	  <a href="facturacion" class="arrow-left">
+		<i>  Facturacion /	</i>
+	  </a>
+	  <a href="historialg" class="arrow-left">
+		<i>  Historial	</i>
+	  </a>
+  
+<div>
+
+
+
+
+
+
+<div class="form-section">
+    <input  class="input " type="text" id="buscador" placeholder="BUSCADOR EMPRESA Y USUARIOS" > 
+  <select type="text" class="select" id="empresa" >  </select>
+   <input  class="input inputderech" type="text" id="buscadorUser" placeholder="BUSCADOR DE USUARIOS" > 
+
+  <select class="select" type="text" id="user" >  </select>
+</div>
+    
+  
+</div>
+
+
+<div class="centrado">
+	<div>
+
+  <label class="inputD" for="user"> ASUNTO <img id="alert1" class="alertCC" src="icon/alert.png"> <p id="alert2"> Maximo 40 Caracteres</p> </label> 
+  <input class="inputC" type="text" id="asunto" placeholder="ASUNTO" > 
+
+  <label  class="inputD descrip2" for="user"> DESCRIPCION </label>
+  <textarea class="inputC" type="text" id="descrip" placeholder="DESCRIPCION" > </textarea>
+
+  <label  class="inputD descrip2" for="user"> DETALLE DE SOPORTE (Opcional) </label>
+  <textarea class="inputC" type="text" id="nota" placeholder="Detalle del soporte" > </textarea>
+ 
+  <label class="inputD"  for="user"> ANYDESK </label>
+  <input  class="inputC" type="text" id="any" placeholder="9 DIGITOS NUMERICOS" > 
+
+  <label class="inputD"  for="user"> CAPTURA DEL ERROR </label>
+  <input  class="inputC" id="imagen" type="file" name="imagen" accept="image/*">
+
+  <button type="button" class="botonenviar" onclick="generar()"> Enviar </button>
+
+</div>
+
+
+
+</div>
+
+
+<script src="usermanual2.js" > </script> 
+
+    <script src="usermanual.js" > </script> 
+
+	<script src="index.js" > </script> 
+
+</body>
+
+	
+	</footer>
+</html>

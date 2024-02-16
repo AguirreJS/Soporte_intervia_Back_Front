@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Tikets Intervia</title>
+	<link rel="icon" type="image/svg" href="icon/32x32.png" sizes="32x32">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="cabecera.css">
+	<link rel="stylesheet" type="text/css" href="menuHerramientas.css">
+	<link rel="stylesheet" type="text/css" href="publicidad.css">
+	<link rel="stylesheet" type="text/css" href="iconos.css">
+	<link rel="stylesheet" type="text/css" href="fondo.css">
+	<link rel="stylesheet" type="text/css" href="paneln4.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+		
+	
+
+
+
+<div class="MenuInicio">
+	<div> <a href="/" ><img href="/" src="img/Intervia_inicio.png"></a></div>	
+	
+	<div> <h1 class="Titulo">Sistema de Tickets</h1> 
+	<h2 id="Usuario"></h2></div>
+	
+	<div class="InicioLogin">
+		
+	<a href="/iniciar.html" id="iniciar"><p class="iniciologinbotones" > + Iniciar Session </p></a>
+						<a href="/login.html" id="regis"> <p class="iniciologinbotones"> ►  Registrarme</p> </a>
+						<a id="salir" onclick="salir()"> <p class="simbolomas"> </p><p class="salir"> × SALIR </p></a>
+	
+	</div>
+	
+	</div>
+	
+	
+	<div class="menuDeOpciones">
+	<div class="Opciones">
+	<a href="/newtiket" class="titulo-menu" > Iniciar un ticket </a>  
+	
+	<a href="/historialv" class="titulo-menu" > Historial </a> 
+	
+	 <a  href="/panel" class="titulo-menu" > Panel de control </a> 
+	</div>
+	<div class="redes">
+		<a href="https://www.instagram.com/interviaarg/?hl=es"target="_blank"> <img src="img/icono_ig.png"> </a>
+		<a href="mailto:soporte2@rhglobal.com.ar" target="_blank" ><img src="img/icono_mail.png"></a>
+		<a href="https://api.whatsapp.com/send?phone=1156303045" target="_blank" > <img src="img/icono_wp.png"></a>
+	</div>
+	</div>
+	
+	
+	
+	<script src="index.js" > </script> 
+
+
+  <button id="descargar" class="selec"  onclick="PasoUno()">Descargar</button>
+  <select type="text"  class="selec" id="empresa" >  </select>
+  <a href="historialg.html" class="arrow-left">
+	<i class="fa fa-arrow-left"> Esta funcion le permite descargar el historial de una Empresas en formato Exel. (Debe esperar 2 segundos a que el archivo sea preparado) </i>
+  </a>
+
+<div class="paneln4"> 
+<h1 class="paneldecontrol"> Panel de control</h1>
+<div class="usuarios">    
+	
+	<div>
+	
+
+<div class="tikets">  <a href="/empresas" class="btn-82"> Empresas </a>  </div> 
+
+<div class="tikets"> <a href="/lusuarios" class="btn-82"> Usuarios </a>  </div>
+
+<div class="tikets"> <a href="/usersin" class="btn-82"> Cargar Nuevo Usuario </a>  </div>
+
+<div class="tikets"> <a href="/pssmod" class="btn-82"> Cambiar Contraseña  </a>  </div>
+
+<div class="tikets"> <a href="/baneados" class="btn-82"> IP baneadas </a>  </div>
+
+<div class="tikets"> <a class="btn-82" onclick="Reportar()"> Reportar Error </a>  </div>
+
+
+
+</div>
+
+<div> </div>
+
+<div>
+
+	<div class="tikets"> <a href="/usermanual" class="btn-82"> Iniciar Ticket Particular </a>  </div>
+
+<div class="tikets"> <a href="/historialg" class="btn-82"> Historial Global</a>  </div>
+
+<div class="tikets"> <a href="/facturacion" class="btn-82"> Ticket Sin Facturar </a>  </div>
+
+<div class="tikets"> <a href="/notificaciones" class="btn-82"> Notificaciones </a>  </div>
+
+<div class="tikets"> <a href="/stock" class="btn-82"> Stock </a>  </div>
+
+<div class="tikets"> <a href="/metricas" class="btn-82"> Metricas </a>  </div>
+
+
+
+</div>
+
+<div id="reporteid" class="contenidoReporte">
+	<img class="SALIRreporte" onclick="SalirRep()" src="icon/salir.png">
+
+<textarea id="textoReporte" class="Reporte">
+	Esta opción se creó con el propósito de permitir a los usuarios solicitar mejoras o reportar errores en el sitio web, con el fin de que puedan ser resueltos o implementados en el futuro.
+</textarea>
+
+<button onclick="ENVIARrepo()" class="EnviarReporte">Enviar</button>
+	
+</div>
+
+
+<div id="cargando" class="oculto">
+    <img class="cargando" src="../icon/cargando.gif" alt="Cargando...">
+  </div>
+
+
+
+
+
+</div>
+</div>
+
+
+
+<script src="index.js" > </script> 
+<script src="panel4.js"></script>
+
+</body>
+</html>

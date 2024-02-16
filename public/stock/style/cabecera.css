@@ -1,0 +1,755 @@
+
+.loginmenu a p {
+  display: inline-block;
+  top: -9px;
+  position: relative;
+  left: 20px;
+  font-size: 17px;
+  color: white;
+  border-bottom: solid white 2px;
+
+
+}
+
+.redesociales {
+
+margin-top: 10px;
+margin-left: 4px;
+
+}
+
+
+body
+ { 
+  background-image: url(img/imagen_fondo.jpg);
+  background-size: cover;
+  background-size: 100% auto;
+  
+  width: 100vw;  }
+
+:root {
+--color1:rgb(127, 87, 157);
+--color2:linear-gradient(90deg, #7b6bfa 0%, #1dd332 100%);
+--color3:#1dd332;
+--color4:#19B92C;
+--color5:#e67979;
+--sombra:black;
+--color6:#22dc30;
+--fondo: white;
+
+}
+
+.imgprincipal2 {
+  display: none;
+}
+
+.menuPrincipal img {  
+display: inline-block;
+height: 20px;
+width: 20px;
+
+ }
+
+ .iconoUser {
+
+    height: 25px !important;
+    width: 30px !important;
+
+ }
+
+
+.menuPrincipal {
+z-index: 50 !important;
+height: 8vw;
+background: var(--color1);
+border-bottom: solid rgb(23, 6, 30) 5px;
+box-shadow: black 5px 5px 20px;
+display: grid;
+
+
+
+}
+
+
+
+.titulo {
+	display: inline-block;
+}
+
+.loginmenu a img {
+
+  width: 35px;
+  height: 35px;
+}
+
+
+
+
+.loginmenu a {
+ display: block;
+ width: 220px;
+ font-size: 22px;
+ color: #18e7e5;
+ position: relative;
+ left: 50%;
+
+	
+}
+
+.titulo { font-size: 100%; 
+		      color: white;	
+       
+		     }
+      .titulo h2 {
+
+        position: relative;
+        bottom: 120px !important;
+        left: 105px;
+      }
+
+
+		      
+#Usuario {  color: #18e7e5;
+  height: 40px;
+  font-size: 18px;
+ }
+
+ .titulo h2 {
+
+  height: 100%;
+  text-align: center;
+  position: relative;
+
+
+
+ }
+
+
+
+  
+
+.psw {
+
+	display: none;
+	margin-left: 20px;
+}
+
+
+
+.fondo {
+
+  background: rgb(113, 94, 134);
+  margin-left: 3%;
+  margin-right: 3%;
+  height: 100vw;
+}
+
+
+
+.registrarse {
+
+  margin-top: -30px;
+}
+
+
+.main {
+  height: 100%;
+  text-align: center;
+
+
+}
+
+
+.main2 {
+  height: 100%;
+  text-align: center;
+  font-size: 50px;
+  position: relative;
+  bottom: 120px;
+}
+.logotipostitulo{
+  display: none !important;
+}
+
+
+
+@media only screen and (min-width: 2px) { 
+
+  footer {
+    display: none;
+  }
+
+  .telefono2 {display: none;}
+
+  .main {
+    font-size: 17px;
+
+  }
+  .menuPrincipal {
+    width: 20%;
+    height: 170px;
+    grid-template-columns: repeat(3, 20px);
+  
+  }
+
+  
+  .imgprincipal2 { display: inline-block;
+  
+                    height: 160px !important;
+                    width: 90px;
+                    
+                    position: relative;
+                    right:  90px;
+  
+  
+  }
+  #Usuario {display: none !important; }
+  #Usuario1 { position: relative;
+  bottom: 600px !important; }
+
+  
+  .imgprincipal { display: none !important;}
+  
+
+
+  .main {
+    margin-left: 110px;
+  }
+  }
+
+  @media only screen and (min-width: 200px){
+    .menuPrincipal {
+      width: 120vw;
+      height: 170px;
+      grid-template-columns: repeat(3, 85px);
+    
+    }
+
+    .main {
+      font-size: 22px;
+      margin-left: 20px;
+    }
+    
+    
+    .loginmenu {
+      margin-top: 12px;
+
+   
+    }
+
+ 
+
+
+
+
+  }
+  @media only screen and (min-width: 250px) { 
+    .menuPrincipal {
+      width: 100vw;
+      height: 170px;
+      grid-template-columns: repeat(3, 50px);
+    
+    }
+
+    .main {
+      font-size: 22px;
+      margin-left: 55px;
+    }
+    .loginmenu {
+
+      margin-left: -30px;
+    }
+
+
+    
+
+
+  }
+
+
+
+@media only screen and (min-width: 290px) { 
+
+.main {
+  font-size: 22px;
+}
+.menuPrincipal {
+  width: 140vw;
+  height: 170px;
+  grid-template-columns: repeat(3, 110px);
+
+}
+
+
+.imgprincipal2 { display: inline-block;
+
+                  height: 160px !important;
+                  width: 90px;
+                  
+                  position: relative;
+                  right:  90px;
+
+
+}
+
+
+}
+
+
+@media only screen and (min-width: 360px) {
+
+
+  .menuPrincipal {
+    width: 105vw;
+    height: 170px;
+    grid-template-columns: repeat(3, 110px);
+  
+  }
+
+
+}
+
+
+@media only screen and (min-width: 426px) {
+.main {
+  margin-left: 20%;
+}
+
+  .menuPrincipal {
+    width: 100vw;
+    height: 170px;
+    grid-template-columns: repeat(3, 120px);
+  
+  }
+
+
+}
+
+
+@media only screen and (min-width: 470px) {
+
+
+ 
+
+  .menuPrincipal {
+    width: 100vw;
+    height: 170px;
+    grid-template-columns: repeat(3, 140px);
+  
+  }
+
+
+}
+
+
+
+@media only screen and (min-width: 550px) {
+
+
+  .menuPrincipal {
+    width: 100vw;
+    height: 170px;
+    grid-template-columns: repeat(3, 180px);
+  
+  }
+
+ 
+
+
+}
+
+@media only screen and (min-width: 570px) {
+
+
+  .menuPrincipal {
+    width: 100vw;
+    height: 170px;
+    grid-template-columns: repeat(3, 200px);
+  
+  }
+
+
+}
+
+@media only screen and (min-width: 613px) {
+
+
+  .menuPrincipal {
+    width: 100vw;
+    height: 170px;
+    grid-template-columns: repeat(3, 210px);
+  
+  }
+
+
+}
+
+
+
+@media only screen and (min-width: 664px) {
+
+.main { margin-left: 0%;}
+  .menuPrincipal {
+    width: 100vw;
+    height: 170px;
+    grid-template-columns: repeat(3, 200px);
+  
+  }
+
+
+}
+
+@media only screen and (min-width: 740px) {
+
+
+  .menuPrincipal {
+    width: 100vw;
+    height: 170px;
+    grid-template-columns: repeat(3, 220px);
+  
+  }
+
+  .main {
+    font-size: 27px;
+  }
+
+  .imgprincipal2 {
+    right: 20px !important;
+  }
+
+}
+
+
+
+@media only screen and (min-width: 763px) {
+
+
+  .menuPrincipal {
+    width: 100vw;
+    height: 170px;
+    
+  
+  }
+
+  .main {
+    font-size: 27px;
+  }
+
+
+}
+
+
+@media only screen and (min-width: 850px) {
+
+  .telefono2 {display: inline;
+                width: 100%;}
+.telefonos3 {display: none;}
+
+
+  .menuPrincipal {
+    width: 110vw;
+    height: 170px;
+    display: grid;
+    grid-template-columns: 30px repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  
+  }
+
+  .imgprincipal2 {
+   display: none !important;
+
+  }
+  .imgprincipal {
+    display: inline-block !important;
+    position: relative;
+    width: 290px !important;
+    height: 120px !important;
+    margin-right: 0px !important;
+    right: 90px !important;
+    
+   }
+
+
+ 
+
+   .main{
+
+    margin-left: 50px;
+   }
+
+
+}
+@media only screen and (min-width: 875px) { 
+
+  .main{
+
+    margin-left: -15px;
+   }
+
+
+}
+
+
+@media only screen and (min-width: 960px) {
+
+  .menuPrincipal {
+    width: 110vw;
+    height: 170px;
+  
+  
+  }
+  .imgprincipal {
+    display: inline-block !important;
+    position: relative;
+    width: 290px !important;
+    height: 120px !important;
+    margin-right: 0px !important;
+    right: 90px !important;
+    
+   }
+
+
+ 
+
+
+
+
+
+
+}
+
+@media only screen and (min-width: 1050px) {
+
+  .menuPrincipal {
+    width: 100% !important;
+    height: 170px;
+    
+  
+  }
+
+  .imgprincipal {
+    display: inline-block !important;
+    position: relative;
+    width: 290px !important;
+    height: 120px !important;
+    margin-right: 0px !important;
+    right: 90px !important;
+    
+   }
+
+
+
+
+}
+
+@media only screen and (min-width: 1180px) {
+
+  .menuPrincipal {
+    width: 110vw !important;
+    height: 170px;
+   
+  
+  }
+
+
+
+
+}
+
+@media only screen and (min-width: 1210px) {
+
+  .menuPrincipal {
+    width: 100vw !important;
+    height: 170px;
+    
+  
+  }
+
+  .logotipostitulo {
+    position: relative;
+    width: 320px;
+    right: 80px;
+    bottom: 20px ;
+      display: grid !important;
+      grid-template-columns: repeat(5, 55px);
+      grid-template-rows: 55px;
+      grid-column-gap: 0px;
+      grid-row-gap: 20px;
+      
+   }
+
+   .main {
+    font-size: 40px;
+   }
+
+
+
+
+
+}
+
+
+
+
+
+@media only screen and (min-width: 1250px) {
+
+.main {
+  font-size: 35px;
+}
+
+  .menuPrincipal {
+    width: 110vw !important;
+    height: 170px;
+    
+  
+  }
+
+  #Usuario {display: inline-block !important; }
+  #Usuario1 { 
+              position: relative;
+            right: 0%;
+          bottom: 110px !important; }
+
+
+
+
+
+}
+
+
+
+
+
+@media only screen and (min-width: 1400px) {
+
+  .menuPrincipal {
+    width: 110vw !important;
+    height: 170px;
+  
+  
+  }
+
+.imgprincipal {
+ width: 70% !important;
+
+}
+.logotipostitulo {
+  position: relative;
+  width: 320px;
+  right: 65px;
+  bottom: 20px ;
+    display: grid !important;
+    grid-template-columns: repeat(5, 45px);
+    grid-template-rows: 55px;
+    grid-column-gap: 0px;
+    grid-row-gap: 20px;
+    
+ }
+
+
+ .logotipostitulo img {
+width: 50px;
+height: 35px;
+
+ }
+
+
+
+
+
+
+}
+
+
+
+@media only screen and (min-width: 1500px){
+
+.menuPrincipal {
+  width: 100vw !important;
+  height: 170px;
+ 
+
+}
+
+.imgprincipal {
+width: 70% !important;
+
+}
+.logotipostitulo {
+position: relative;
+width: 320px;
+right: 110px;
+bottom: 20px ;
+  display: grid !important;
+  grid-template-columns: repeat(5, 65px);
+  grid-template-rows: 55px;
+  grid-column-gap: 0px;
+  grid-row-gap: 20px;
+  
+}
+
+
+.logotipostitulo img {
+width: 75px;
+height: 55px;  }}
+
+
+
+
+
+@media only screen and (min-width: 1700px){ 
+
+  .logotipostitulo {
+    position: relative;
+    width: 320px;
+    right: 90px;
+    bottom: 20px ;
+      display: grid !important;
+      grid-template-columns: repeat(5, 65px);
+      grid-template-rows: 55px;
+      grid-column-gap: 0px;
+      grid-row-gap: 20px;
+      
+    }
+
+}
+
+
+@media only screen and (min-width: 1800px){ 
+
+  .logotipostitulo {
+    position: relative;
+    width: 320px;
+    right: 60px;
+    bottom: 20px ;
+      display: grid !important;
+      grid-template-columns: repeat(5, 65px);
+      grid-template-rows: 55px;
+      grid-column-gap: 0px;
+      grid-row-gap: 20px;
+      
+    }
+
+}
+
+@media only screen and (min-width: 2100px){ 
+
+  .logotipostitulo {
+    position: relative;
+    width: 320px;
+    right: 45px;
+    bottom: 20px ;
+      display: grid !important;
+      grid-template-columns: repeat(5, 65px);
+      grid-template-rows: 55px;
+      grid-column-gap: 0px;
+      grid-row-gap: 20px;
+      
+    }
+
+
+
+}

@@ -1,0 +1,35 @@
+
+
+
+.tikets { width: 20% !important;
+            margin-left: 37%;
+        margin-top: 45px;}
+
+
+
+
+        button {
+            position: relative;
+            padding: 3px;
+            font-size: 13px;
+            font-weight: bold;
+            color: rgb(255, 255, 255);
+            margin-top: 20px;
+            background-color: #9d959bca;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 20px;
+            border: solid white 2px;
+        }
+
+
+
+        .arrow-left {
+            text-decoration: none;
+            color: #000;
+          }
+          
+          .arrow-left i {
+            font-size: 1.5em;
+          }

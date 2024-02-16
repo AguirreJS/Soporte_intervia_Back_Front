@@ -1,0 +1,12 @@
+[
+  {
+    "fecha": "2023-11-14",
+    "correo": [
+      "soporte2@rhglobal.com.ar",
+      "soporte3@rhglobal.com.ar"
+    ],
+    "recordatorio": "dsadsads",
+    "ticket": "t813246",
+    "asunto": "dsadsad"
+  }
+]

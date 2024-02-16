@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Tikets Intervia</title>
+	<link rel="icon" type="image/svg" href="icon/32x32.png" sizes="32x32">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="cabecera.css">
+	<link rel="stylesheet" type="text/css" href="menuHerramientas.css">
+	<link rel="stylesheet" type="text/css" href="publicidad.css">
+	<link rel="stylesheet" type="text/css" href="iconos.css">
+	<link rel="stylesheet" type="text/css" href="fondo.css">
+	<link rel="stylesheet" type="text/css" href="inicio.css">
+	<link rel="stylesheet" type="text/css" href="codigov.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	
+	
+	
+<div class="menuPantalla"> 
+
+
+	<div class="MenuInicio">
+		<div> <a href="/" ><img href="/" src="img/Intervia_inicio.png"></a></div>	
+		
+		<div> <h1 class="Titulo">Sistema de Tickets</h1> 
+		<h2 id="Usuario"></h2></div>
+		
+		<div class="InicioLogin">
+			
+		<a href="/iniciar.html" id="iniciar"><p class="iniciologinbotones" > + Iniciar Session </p></a>
+							<a href="/login.html" id="regis"> <p class="iniciologinbotones"> ►  Registrarme</p> </a>
+							<a id="salir" onclick="salir()"> <p class="simbolomas"> </p><p class="salir"> × SALIR </p></a>
+		
+		</div>
+		
+		</div>
+		
+		
+		<div class="menuDeOpciones">
+		<div class="Opciones">
+		<a href="/newtiket" class="titulo-menu" > Iniciar un ticket </a>  
+		
+		<a href="/historialv" class="titulo-menu" > Historial </a> 
+		
+		 <a  href="/panel" class="titulo-menu" > Panel de control </a> 
+		</div>
+		<div class="redes">
+			<a href="https://www.instagram.com/interviaarg/?hl=es"target="_blank"> <img src="img/icono_ig.png"> </a>
+			<a href="mailto:soporte2@rhglobal.com.ar" target="_blank" ><img src="img/icono_mail.png"></a>
+			<a href="https://api.whatsapp.com/send?phone=1156303045" target="_blank" > <img src="img/icono_wp.png"></a>
+		</div>
+		</div>
+		
+		
+		
+		<script src="index.js" > </script> 
+
+<div class="posicionC iniciar">
+  <label class="inputD" for="user"> CODIGO VALIDACION DE CORREO </label>
+  <input class="inputC" type="text" id="codigov" placeholder="CODIGO 16 DIGITOS" > 
+  <p id="Error" >  </p>
+  
+
+<div  class="butgrid" >
+  <button type="button" id="bnone" class="BotInicio" onclick="validarCodigo()"> VALIDAR CODIGO </button>
+
+  <button type="button" id="bnone2" class="BotInicio" onclick="restablecerPsw()"> REESTABLECER MI CONTRASEÑA </button>
+</div>
+
+
+
+<div id="psw" class="psw">  
+  <input type="password"  id="npsw" placeholder="NUEVA CONTRASEÑA" > 
+
+  <input type="password" id="rpsw" placeholder="REPITA LA CONTRASEÑA" > 
+
+  <p id="Error2"></p>
+
+  <button type="button"  onclick="okrestablecerPsw()"> REESTABLECER </button>
+
+
+</div>
+
+
+
+           	</div>
+
+			   <div class="info pasos"> 
+				<H1>IMPORTANTE</H1> 
+				<div>
+		  <img src="icon/info.png"> Esta herramienta permite tanto validar su cuenta para comenzar a iniciar tickets como para reestablecer la contraseña de su cuenta, siempre y cuando posea el codigo de seguridad de 16 digitos alfanumerico que se envia la primera ves que se registra.
+			  </div>
+			  <div><h1> ¿Como reestablesco la contraseña? </h1> 
+				<img src="icon/info.png"> Si llegaste a este sitio al intentar iniciar session erroneamente y haciendo click en "olvide mi contrasaeña" automaticamente se le reenviara el codigo de seguridad del correo ingresado en el inicio de sesion. Ese codigod e seguridad lo puede pegar el seccion correspondiente de la parte de arriba de este cuadro de dialogo y hacer click en reestablecer contraseña. El codigo de seguridad es el mismo que se le envio la primera vez que se registro. 
+				<br><img src="icon/info.png"> Si uted fue registrado por un administrador tenga en cuenta que en su mail debe tener un correo con las instruciones de un registro por parte de un administrador, tambien le puede solicitar al mismo que reestablesca la contraseña manualmente. 
+
+				<div><h1> ¿Como valido mi correo electronico? </h1> 
+					  <img src="icon/info.png"> Al llenar el formulario si este se relleno correctamente se le envia un codigo de seguridad de 16 digitos que debe pegar en la seccion mas arriba y hacer click en "validar codigo" si este paso no se realiza correctamente usted puede iniciar session pero no va a estar habilitado para realizar tickets, por lo que este paso es necesario para que su cuenta funcione correctamente. 
+						  </div>
+						  
+  
+			</div>
+
+			   </div>
+		
+</div>
+
+
+<div class="Telefonos"  >
+
+	<div class="menuDeOpcionestel" id="menutelefonosdes" style="display: none;">
+		
+		<div onclick="toggleDisplay()" class="divmenu1" >
+<img src="icon/cerrarmenu.png" ></div>
+
+<a href="/newtiket" class="titulo-menu img1" > Iniciar un ticket </a>  
+
+<div class="lineamenu"> </div>
+
+<a href="/historialv" class="titulo-menu" > Historial </a> 
+
+<div class="lineamenu"> </div>
+
+ 
+
+
+	</div>
+
+<div class="fotelefono">
+	<a href="/" class="fotelefonoimg" >
+<img class="fotelefonoimg" src="img/Intervia_inicio.png"></a>
+<div onclick="toggleDisplay()" class="divmenu" >
+<img class="fotelefonomenu" src="icon/menutelefonos.png"></div>
+
+<div class="telefonoslinea"> </div>
+
+<h1 class="telefonostitulo">
+	Sistema de Tickets
+
+
+
+</h1>
+
+
+
+
+<p class="InfoReset"> Se te fue enviado un mail con la informacion necesaria para reestablecer la contraseña de tu cuenta y/o finalizar el registro de la misma, tambien puede solicitar a un administrador que reestablesca su contraseña por una de su conosimiento. </p>
+
+
+<div class="redestelefono">
+
+	<a href="https://www.instagram.com/interviaarg/?hl=es"target="_blank"> <img  src="img/icono_ig.png"> </a>
+	<a href="mailto:soporte2@rhglobal.com.ar" target="_blank" ><img src="img/icono_mail.png"></a>
+	<a href="https://api.whatsapp.com/send?phone=+541156303045" target="_blank" > <img src="img/icono_wp.png"></a>
+
+
+
+</div> </div> </div>
+
+
+
+
+             <script src="validacion.js" > </script> 
+			 <script src="index.js" > </script> 
+</body>
+
+
+</html>

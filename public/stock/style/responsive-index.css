@@ -1,0 +1,225 @@
+
+
+
+@media only screen and (min-width: 0px) { 
+
+    .Pantalla {
+        display: none;
+    }
+
+.Telefonos  {
+
+display: inline-block;
+height: 550px;
+width: 100vw;
+background: rgb(106,83,149);
+background: -moz-linear-gradient(90deg, rgba(106,83,149,1) 48%, rgba(103,25,172,1) 79%);
+background: -webkit-linear-gradient(90deg, rgba(106,83,149,1) 48%, rgba(103,25,172,1) 79%);
+background: linear-gradient(90deg, rgba(106,83,149,1) 48%, rgba(103,25,172,1) 79%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6a5395",endColorstr="#6719ac",GradientType=1);
+
+} 
+
+
+.fotelefono {
+    display: inline-block;
+    height: 50px;
+    width: 100%;
+    background: rgba(152, 66, 66, 0) !important;
+}
+
+.fotelefonoimg {
+    display: inline-block;
+    height: 15vw;
+    margin: 8px;
+ 
+}
+
+.fotelefonomenu {
+    
+    display: inline-block;
+    height: 8vw;
+    width: 8vw;
+    margin-bottom: 58%;
+    margin-left: 15%;
+}
+
+
+.telefonostitulo {
+
+    color: white;
+    font-size: 40px;
+    margin-left: 10%;
+    margin-top: 5%;
+
+}
+
+.telefonoslinea {
+
+    height: 12px;
+    width: 45px;
+    background: #87ffd5;
+    margin-left: 10%;
+
+
+
+}
+
+.teleBienvenidos {
+
+    color: white;
+    font-size: 7vw;
+    margin-left: 10%;
+    margin-top: 10%;
+
+}
+
+.telRegistrarme {
+
+    height: 50px;
+    width: 76%;
+    background: #87ffd5;
+    margin: 20px;
+
+
+}
+
+.telRegistrarme a{
+
+    text-decoration: none;
+    color: rgb(70, 7, 130);
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.redestelefono {
+   position: fixed;
+ bottom: 0;
+    margin-top: 90px;
+    height: 75px;
+    width: 100%;
+    background: rgb(65, 16, 113);
+
+}
+
+.redestelefono a img {
+ 
+  height: 35px;
+  width: 35px;
+  margin: 5%;
+  margin-left: 15%;
+
+  
+
+}
+
+.menuDeOpcionestel {
+
+    position: fixed;
+    height: 278px;
+    width: 227px;
+    background: white;
+    margin-left: 40%;
+    border-radius: 25px;
+    display: none;
+    
+}
+
+.menuDeOpcionestel img {
+
+    margin-left: 67%;
+    margin-bottom: -50px;
+
+
+}
+
+.menuDeOpcionestel a { 
+
+    display: inline-block;
+    width: 100% !important;
+   margin-left: 15%;
+    text-decoration: none;
+    margin-top: 10%;
+    color: rgb(118, 74, 159);  
+    font-size: 19px;                                                                                                    
+}
+
+.lineamenu {
+    margin-top: 5px;
+    margin-left: 15%;
+    height: 5px;
+    width: 145px;
+    background: rgb(118, 74, 159);
+}
+
+.img1 {
+    margin-top: 14% !important;
+}
+
+.divmenu {
+    display: inline-block;
+    height: 20%;
+    margin-left: 15%;
+    
+}
+
+.divmenu1 {
+margin-bottom: 15%;
+
+}
+
+
+.Nomusuario {
+
+    color: #87ffd5;
+    margin-left: 10%;
+}
+
+.salir2tel {
+  
+
+    color: rgb(0 0 0) !important;
+    margin-left: 45% !important;
+    width: 57px !important;
+    margin-top: 15%;
+    border: solid white 2px !important;
+    padding-left: -5px;
+    font-size: 12px;
+    text-align: center;
+    background: #41e0cd;
+    
+}
+
+
+
+
+}
+
+@media only screen and (min-width: 355px) {  
+
+    .Telefonos {
+        height: 175vw;
+
+
+} }
+
+
+@media only screen and (min-width: 850px) { 
+
+    .Telefonos {
+   
+    display: none;
+    
+}
+
+.Pantalla {
+
+    display: inline;
+}
+    
+    
+    }
+
+
+   

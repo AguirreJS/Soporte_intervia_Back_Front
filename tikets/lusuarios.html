@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Tikets Intervia</title>
+   <link rel="icon" type="image/svg" href="icon/32x32.png" sizes="32x32">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="cabecera.css">
+	<link rel="stylesheet" type="text/css" href="menuHerramientas.css">
+   <link rel="stylesheet" type="text/css" href="main.css">
+   <link rel="stylesheet" type="text/css" href="menu.css">
+   <link rel="stylesheet" type="text/css" href="tablalusuarios.css">
+	<link rel="stylesheet" type="text/css" href="publicidad.css">
+	<link rel="stylesheet" type="text/css" href="iconos.css">
+	<link rel="stylesheet" type="text/css" href="fondo.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+<script src="editor.js" > </script> 
+<script src="lusuarios.js" > </script> 
+<script src="index.js" > </script> 
+</head>
+<body>
+	
+	
+		
+	
+
+
+
+<div class="MenuInicio">
+   <div> <a href="/" ><img href="/" src="img/Intervia_inicio.png"></a></div>	
+   
+   <div> <h1 class="Titulo">Sistema de Tickets</h1> 
+   <h2 id="Usuario"></h2></div>
+   
+   <div class="InicioLogin">
+      
+   <a href="/iniciar.html" id="iniciar"><p class="iniciologinbotones" > + Iniciar Session </p></a>
+                  <a href="/login.html" id="regis"> <p class="iniciologinbotones"> ►  Registrarme</p> </a>
+                  <a id="salir" onclick="salir()"> <p class="simbolomas"> </p><p class="salir"> × SALIR </p></a>
+   
+   </div>
+   
+   </div>
+   
+   
+   <div class="menuDeOpciones">
+   <div class="Opciones">
+   <a href="/newtiket" class="titulo-menu" > Iniciar un ticket </a>  
+   
+   <a href="/historialv" class="titulo-menu" > Historial </a> 
+   
+    <a  href="/panel" class="titulo-menu" > Panel de control </a> 
+   </div>
+   <div class="redes">
+      <a href="https://www.instagram.com/interviaarg/?hl=es"target="_blank"> <img src="img/icono_ig.png"> </a>
+      <a href="mailto:soporte2@rhglobal.com.ar" target="_blank" ><img src="img/icono_mail.png"></a>
+      <a href="https://api.whatsapp.com/send?phone=1156303045" target="_blank" > <img src="img/icono_wp.png"></a>
+   </div>
+   </div>
+   
+   
+   
+   <script src="index.js" > </script> 
+
+
+
+
+   <a href="index.html" class="arrow-left">
+      <i> Inicio    /  </i>
+     </a>  
+     <a href="panel" class="arrow-left">
+      <i> Panel de Control / </i>
+     </a>
+     <a href="usermanual" class="arrow-left">
+      <i> Iniciar un ticket particular /</i>
+     </a>
+     <a href="usersin" class="arrow-left">
+      <i> Cargar Usuario /	</i>
+     </a>
+     <a href="lusuarios" class="arrow-left">
+      <i>  Usuarios /	</i>
+     </a>
+     <a href="facturacion" class="arrow-left">
+      <i>  Facturacion /	</i>
+     </a>
+     <a href="historialg" class="arrow-left">
+      <i>  Historial	</i>
+     </a>
+
+     
+  <div class="Buscador">
+
+   <input  class="inputC" type="text" id="buscador" placeholder="BUSCADOR" > 
+
+   
+ </div>
+
+
+
+<div class="tabla" id="historial">
+
+
+
+
+
+    <div  class="colum1" id="delete">
+       
+       <h1> Eliminar </h1>
+       
+     </div>
+
+
+
+    <div  class="colum2" id="correo">
+
+ <h1> Usuario</h1>
+ 
+
+    </div>
+    <div  class="colum6" id="nombre">
+
+      <h1> Nombre </h1>
+     
+         </div>
+
+
+    <div class="colum3"  id="empresa">
+ <h1> Empresa </h1>
+
+
+    </div>
+
+ 
+
+    <div  class="colum5" id="nivel">
+
+ <h1> Nivel  </h1>
+
+    </div>
+
+    <div class="colum4"  id="nivel1">
+      <h1> ↑ </h1>
+     
+     
+         </div>
+
+         <div class="colum4"  id="nivel2">
+            <h1> ↓ </h1>
+           
+           
+               </div>
+
+      
+
+            <div class="colum7" id="dominio" >
+               <h1>  Empresa </h1>
+             
+
+              
+              
+                  </div>
+
+                  <div class="colum9" id="codigoqr">
+       
+                     <h1> QR </h1>
+                     
+                   </div>
+
+                  
+            <div class="colum8" id="ejecutando" >
+               <h1>OK</h1>
+             
+
+              
+              
+                  </div>
+
+                
+
+               </div>
+
+
+</div>
+
+
+<script  src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+   
+</body>
+
+
+</html>

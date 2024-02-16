@@ -1,0 +1,244 @@
+
+
+/* Estilos Generales */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.NewUser {
+  display: flex;
+  justify-content: space-between; /* Distribuye el espacio entre los elementos */
+  align-items: center; /* Alinea verticalmente los elementos al centro */
+  background-color:linear-gradient(180deg, rgba(135,255,213,1) 69%, rgba(100,210,113,1) 100%);; /* Un tono azul claro para el fondo */
+  padding: 10px 30px; /* Espaciado interno */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.tituloNewUser {
+  margin-right: 10px; /* Espacio a la derecha del label */
+  color: #005b99; /* Color azul oscuro para el texto */
+  font-weight: bold;
+}
+
+.inputNewUser {
+  padding: 5px 10px; /* Espaciado interno */
+  border-radius: 4px; /* Bordes redondeados */
+  border: 1px solid #007acc; /* Borde azul */
+  color: black; /* Color azul oscuro para el texto del input */
+}
+
+.inputNewUser:focus {
+  outline: none;
+  box-shadow: 0 0 3px #007acc; /* Sombra azul cuando el input está enfocado */
+}
+
+.btnAgregar {
+  background-color: #007acc; /* Color de fondo azul */
+  color: white; /* Texto blanco */
+  padding: 8px 15px; /* Espaciado interno */
+  border: none; /* Sin borde */
+  border-radius: 4px; /* Bordes redondeados */
+  cursor: pointer; /* Cursor de mano al pasar el ratón por encima */
+  transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+
+.btnAgregar:hover {
+  background-color: #005b99; /* Color de fondo azul más oscuro al pasar el ratón por encima */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form-section {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 35px;
+  background: #f9f9f97a;
+  height: 80px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  box-shadow: 0px 8px 6px rgba(0, 0, 0, 0.486); /* Sombra suave */
+
+}
+
+
+
+.nombre2 {
+  width: 15%;
+  font-size: 22px;
+  color: white;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.nombre {
+  width: 25%;
+  font-size: 22px;
+  color: white;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.select {
+
+  border: solid rgb(255, 255, 255) 3px;
+  text-align: center;
+  width: 23%;
+  height: 49%;
+  margin-top: 20px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 19px;
+  background: rgba(187, 184, 184, 0.777);
+  text-align: center;
+
+}
+
+
+.form-section button {
+
+  position: relative;
+  padding: 12px 45px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  height: 60%;
+  margin-top: 20px;
+  background-color: #1b0516;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 20px;
+
+
+
+
+}
+.form-section button.lupa:hover {
+  box-shadow: 0 0 10px white;
+}
+
+
+
+.centrado {
+
+  box-shadow: 0px 20px 20px rgb(0, 0, 0);
+  background: #36343428;
+  border: solid 2px black;
+  margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 35px;
+    padding-top: 5%;
+}
+
+
+.inputC {
+  
+    color: #0e0f0f;
+    font-size: 17px;
+    margin-bottom: 20px;
+    margin-left: 24%;
+    display: inline-block;
+    background: #ffffffd6;
+    width: 50%;
+    border-top: solid 4px rgb(24, 189, 211);
+    border-bottom: solid 4px rgb(24, 189, 211);
+    border-left: none;
+    border-right: none;
+    padding-left: 7px;
+
+}
+
+.botonenviar {
+
+  position: relative;
+  padding: 12px 45px;
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+  margin-top: 20px;
+  background-color: #9d959b72;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 20px;
+  margin-left: 80%;
+  border: solid white 2px;
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.74);
+
+
+}
+
+.input {
+
+  color: #0e0f0f;
+  font-size: 17px;
+  margin-bottom: 21px;
+  /* margin-top: 14px; */
+  margin-top: 22px;
+  margin-right: 14px;
+  background: #ffffffd6;
+  width: 21%;
+  border-top: solid 4px rgb(24, 189, 211);
+  border-bottom: solid 4px rgb(24, 189, 211);
+
+  /* border-left: none; */
+  /* border-right: none; */
+  /* padding-left: 4px; */
+  /* padding-top: 0px; */
+}
+
+
+.inputderech {
+   margin-left: 15px;
+
+
+}
+
+
+.inputD {
+  display: block;
+    
+  margin-left: 20%;
+  margin-bottom: 3px;
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  border-bottom: solid rgb(97, 99, 98) 3px;
+  height: auto;
+  width: 450px;
+}
+
+
+
+.alertCC {
+
+
+width: 25px;
+
+
+}
+
+
+
+

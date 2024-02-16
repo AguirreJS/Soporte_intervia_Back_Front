@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Tikets Intervia</title>
+	<link rel="icon" type="image/svg" href="icon/32x32.png" sizes="32x32">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="cabecera.css">
+	<link rel="stylesheet" type="text/css" href="menuHerramientas.css">
+	<link rel="stylesheet" type="text/css" href="publicidad.css">
+	<link rel="stylesheet" type="text/css" href="iconos.css">
+	<link rel="stylesheet" type="text/css" href="fondo.css">
+	<link rel="stylesheet" type="text/css" href="responsive-iniciar.css">
+	<link rel="stylesheet" type="text/css" href="noacc.css">
+  <link rel="stylesheet" type="text/css" href="inicio.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+
+
+</head>
+	
+	
+
+<div class="Pantalla"> 
+
+<div class="MenuInicio">
+	<div> <a href="/" ><img href="/" src="img/Intervia_inicio.png"></a></div>	
+	
+	<div> <h1 class="Titulo">Sistema de Tickets</h1> 
+	<h2 id="Usuario"></h2></div>
+	
+	<div class="InicioLogin">
+		
+	<a href="/iniciar.html" id="iniciar"><p class="iniciologinbotones" > + Iniciar Session </p></a>
+						<a href="/login.html" id="regis"> <p class="iniciologinbotones"> ►  Registrarme</p> </a>
+						<a id="salir" onclick="salir()"> <p class="simbolomas"> </p><p class="salir"> × SALIR </p></a>
+	
+	</div>
+	
+	</div>
+	
+	
+	<div class="menuDeOpciones">
+	<div class="Opciones">
+	<a href="/newtiket" class="titulo-menu" > Iniciar un ticket </a>  
+	
+	<a href="/historialv" class="titulo-menu" > Historial </a> 
+	
+	 <a  href="/panel" class="titulo-menu" > Panel de control </a> 
+	</div>
+	<div class="redes">
+		<a href="https://www.instagram.com/interviaarg/?hl=es"target="_blank"> <img src="img/icono_ig.png"> </a>
+		<a href="mailto:soporte2@rhglobal.com.ar" target="_blank" ><img src="img/icono_mail.png"></a>
+		<a href="https://api.whatsapp.com/send?phone=1156303045" target="_blank" > <img src="img/icono_wp.png"></a>
+	</div>
+	<p id="Error" >  </p>
+	</div>
+	
+	
+	
+	<script src="index.js" > </script> 
+
+<div class="gridInicio">
+  
+	<div class="loginPrincipal iniciar ">
+  <label class="inputD" for="user"> CORREO </label>
+  <input  class="inputC" type="text" id="incorreo2" placeholder="CORREO" > 
+
+  <label class="inputD" for="user"> CONTRASEÑA </label>
+  <input class="inputC" type="password" id="inpssw2" placeholder="CONSTRASEÑA" > 
+
+
+  
+
+ 
+  <div id="cargando2" class="progress">
+    <div class="progress-value"></div> </div>
+    <div class="butgrid">
+  <button type="button" class="BotInicio" id="but2" onclick="enviosession1()"> INICIAR SESSION </button> 
+  <button type="button" class="BotInicio" id="reset2" onclick="reset()"> OLVIDE MI CONTRASEÑA </button>
+   </div>
+  
+
+  
+
+
+
+
+
+           	</div>
+
+            
+            
+            
+         
+        
+       </div>
+
+</div>
+
+
+<div class="Telefonos"  >
+
+	<div class="menuDeOpcionestel" id="menutelefonosdes" style="display: none;">
+		
+		<div onclick="toggleDisplay()" class="divmenu1" >
+<img src="icon/cerrarmenu.png" ></div>
+
+<a href="/newtiket" class="titulo-menu img1" > Iniciar un ticket </a>  
+
+<div class="lineamenu"> </div>
+
+<a href="/historialv" class="titulo-menu" > Historial </a> 
+
+<div class="lineamenu"> </div>
+
+ 
+
+
+	</div>
+
+<div class="fotelefono">
+	<a href="/" class="fotelefonoimg" >
+<img class="fotelefonoimg" src="img/Intervia_inicio.png"></a>
+<div onclick="toggleDisplay()" class="divmenu" >
+<img class="fotelefonomenu" src="icon/menutelefonos.png"></div>
+
+<div class="telefonoslinea"> </div>
+
+<h1 class="telefonostitulo">
+	Sistema de Tickets
+
+
+
+</h1>
+
+</div>
+<div class="Incorreocto" id="Incorrectos"> <h1> Correo o Contraseña Incorrectos</h1> </div>
+<div class="Incorreocto" id="IncorrectosUser"> <h1> Ese Correo no esta registrado</h1> </div>
+
+
+<h1 class="titulosesion">Inicias Sesion</h1>
+
+
+
+
+
+
+
+
+  
+	  <input  class="inputC2" type="text" id="incorreo1" placeholder="CORREO" > 
+	
+	  <input class="inputC2" type="password" id="inpssw1" placeholder="CONSTRASEÑA" > 
+	
+	  <p id="Error" >  </p>
+	  
+	
+	 
+	  <div id="cargando" class="progress">
+		<div class="progress-value"></div> </div>
+		<div class="butgrid">
+	  <button type="button" class="BotInicio2" id="but" onclick="enviosessionTelefonos()"> INICIAR SESSION </button> 
+	  <button type="button" class="BotInicio2" id="reset" onclick="resetTelefonos()"> OLVIDE MI CONTRASEÑA </button>
+	   </div>
+	  
+	
+	  
+	
+		
+	
+				
+				
+				
+			 
+			
+
+
+
+
+<a id="salir" onclick="salir()"> <p class="simbolomas"> </p><p class="salir salir2tel"> × SALIR </p></a>
+
+
+<div class="redestelefono">
+
+	<a href="https://www.instagram.com/interviaarg/?hl=es"target="_blank"> <img  src="img/icono_ig.png"> </a>
+	<a href="mailto:soporte2@rhglobal.com.ar" target="_blank" ><img src="img/icono_mail.png"></a>
+	<a href="https://api.whatsapp.com/send?phone=+541156303045" target="_blank" > <img src="img/icono_wp.png"></a>
+
+
+
+</div>
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+        
+
+
+             <script src="inicio.js" > </script> 
+			 <script src="index.js" > </script> 
+			 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+			 
+
+
+</body>
+
+
+</html>

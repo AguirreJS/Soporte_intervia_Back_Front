@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Tickets Intervia</title>
+	<link rel="icon" type="image/svg" href="icon/32x32.png" sizes="32x32">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="responsive-index.css">
+	<link rel="stylesheet" type="text/css" href="cabecera.css">
+	<link rel="stylesheet" type="text/css" href="menuHerramientas.css">
+	<link rel="stylesheet" type="text/css" href="publicidad.css">
+	<link rel="stylesheet" type="text/css" href="iconos.css">
+	<link rel="stylesheet" type="text/css" href="fondo.css">
+	<link rel="stylesheet" type="text/css" href="noacc.css">
+	<link rel="stylesheet" type="text/css" href="loginindex.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+
+
+
+
+</head>
+
+
+
+<body>
+	<div class="ventana-emergente" id="miVentanaEmergente">
+		<div class="loginPrincipal iniciar ">
+			<label class="inputD" for="user"> CORREO </label>
+			<input class="inputC" type="text" id="incorreo2" placeholder="CORREO"> 
+		  
+			<label class="inputD" for="user"> CONTRASEÑA </label>
+			<input class="inputC" type="password" id="inpssw2" placeholder="CONSTRASEÑA"> 
+		   
+			<div id="cargando2" class="progress">
+			  <div class="progress-value"></div> </div>
+			  <div class="butgrid">
+			<button type="button" class="BotInicio" id="but2" onclick="enviosession1()"> INICIAR SESSION </button> 
+			<a type="button" class="BotInicio" id="reset2" href="iniciar.html"> OLVIDE MI CONTRASEÑA </a>
+			<h3 id="Error"></h3>
+			 </div>
+						 </div>
+
+
+
+	  </div>
+	  
+	
+	
+
+<div class="Pantalla"> 
+
+<div class="MenuInicio">
+<div> <a href="/" ><img href="/" src="img/Intervia_inicio.png"></a></div>	
+
+<div> <h1 class="Titulo">Sistema de Tickets</h1> 
+<h2 id="Usuario"></h2></div>
+
+<div class="InicioLogin">
+	
+	<a onclick=" mostrarVentanaEmergente()" id="iniciar"><p class="iniciologinbotones" > + Iniciar Sesion </p></a>
+					<a href="/login.html" id="regis"> <p class="iniciologinbotones"> ►  Registrarme</p> </a>
+					<a id="salir" onclick="salir()"> <p class="simbolomas"> </p><p class="salir"> × SALIR </p></a>
+					
+
+</div>
+
+</div>
+
+
+<div class="menuDeOpciones">
+<div class="Opciones">
+<a href="/newtiket" class="titulo-menu" > Iniciar un ticket </a>  
+
+<a href="/historialv" class="titulo-menu" > Historial </a> 
+
+ <a  href="/panel" class="titulo-menu" > Panel de control </a> 
+</div>
+<div class="redes">
+	<a href="https://www.instagram.com/interviaarg/?hl=es"target="_blank"> <img src="img/icono_ig.png"> </a>
+	<a href="mailto:soporte2@rhglobal.com.ar" target="_blank" ><img src="img/icono_mail.png"></a>
+	<a href="https://api.whatsapp.com/send?phone=1156303045" target="_blank" > <img src="img/icono_wp.png"></a>
+</div>
+</div>
+
+
+
+<script src="index1.js" > </script> 
+
+
+
+<div class="GridIndex">  
+
+<div class="Info">
+
+	<h1> Bienvenidos </h1>
+	<div class="lineaDivisoria"></div>
+
+	<p class="infop1"> A principios del año 2023 Intervia junto con Rh global
+		comenzará a implementar un sistema de tickets para
+		organizar mejor sus soportes. </p>
+
+	<p>
+		Este innovador sistema permite un control más personal
+sobre sus solicitudes o soportes, ya sea que estos tengan
+una duración más prolongada que una simple atención.
+	</p>
+
+	<p>
+
+Además, permite llevar una bitácora sobre los problemas
+más comunes de su equipo y ver si estos se repiten en'el
+tiempo para tomar otras decisiones.
+
+
+
+	</p>
+
+
+
+
+
+
+</div>
+
+<div  class = "CodigoQR" id="codigoQR">
+	<h2> QR Personal</h2>
+	<p>Utiliza este  QR para iniciar un ticket rapidamente y sin necesidad de iniciar sesion en la plataforma.</p>
+	
+	
+
+</div>
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+<div class="Telefonos"  >
+
+	<div class="menuDeOpcionestel" id="menutelefonosdes" style="display: none;">
+		
+		<div onclick="toggleDisplay()" class="divmenu1" >
+<img src="icon/cerrarmenu.png" ></div>
+
+<a href="/newtiket" class="titulo-menu img1" > Iniciar un ticket </a>  
+
+<div class="lineamenu"> </div>
+
+<a href="/historialcelulares" class="titulo-menu" > Historial </a> 
+
+<div class="lineamenu"> </div>
+
+
+ 
+
+
+	</div>
+
+<div class="fotelefono">
+<a href="/" class="fotelefonoimg" >
+<img class="fotelefonoimg" href="/" src="img/Intervia_inicio.png"> </a>
+<div onclick="toggleDisplay()" class="divmenu" >
+<img class="fotelefonomenu" src="icon/menutelefonos.png"></div>
+
+</div>
+
+<h1 class="telefonostitulo">
+	Sistema <br> de Tickets
+
+
+
+</h1>
+<div class="telefonoslinea"> </div>
+
+<h1 class="teleBienvenidos"> Bienvenidos</h1>
+<h2 id="Usuario2" class="Nomusuario"></h2>
+
+<div id="registro1" class="telRegistrarme">
+	<a href="/login.html" id="regisR"> <p class="iniciarsession"> ►  Registrarme </p> </a>
+</div>
+
+
+<div id="registro2" class="telRegistrarme">
+	<a href="/iniciar.html" id="iniciar"><p class="iniciarsession" > + Iniciar Sesion </p></a>
+</div>
+
+<br>
+
+<a id="salirR" onclick="salir()"> <p class="simbolomas"> </p><p class="salir2tel">  SALIR </p></a>
+
+
+<div class="redestelefono">
+
+	<a href="https://www.instagram.com/interviaarg/?hl=es"target="_blank"> <img  src="img/icono_ig.png"> </a>
+	<a href="mailto:soporte2@rhglobal.com.ar" target="_blank" ><img src="img/icono_mail.png"></a>
+	<a href="https://api.whatsapp.com/send?phone=+541156303045" target="_blank" > <img src="img/icono_wp.png"></a>
+
+
+
+</div>
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</div>
+
+</body>
+
+
+
+</html>
